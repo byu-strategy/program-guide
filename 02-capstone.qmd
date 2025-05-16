@@ -7,17 +7,26 @@ editor: visual
 
 ## Business Analyst Experience {.unnumbered}
 
+Students who complete the Business Analyst capstone experience will partner with a company to address real strategic issues, gaining hands-on experience and client management skills. This is done Fall or Winter semester of senior year by enrolling in STRAT: 421 Strategy Implementation.
+
 The Business Analyst consulting experience does not require a separate application. 
 
 ## Product Management Experiences {.unnumbered}
 
-There are three possible product management experiences, each of which has its own application process and timeline. Product Managment Track students complete one of these experiences.
-
-
+Students may complete 1 of 3 possible product management experiences, each of which has its own application process and timeline.
 
 ### Associate Product Manager (APM) Internship {.unnumbered}
 
+Students will complete a guaranteed four month APM Internship with a leading company. The internship may extend and convert to paida after 4 months depending on negotiations between the company and the student.
 
+**Students interested in applying should enroll during the Fall of their Junior Year in one of:**
+
+-   STRAT 490R: Creating Digital Products with AI: Strategy & Prototyping (3.0 credits)
+-   MSB 341: Product Management (3.0 credits)
+
+AND
+
+-   MSB 342: Product Management Lecture Series (1.0 credit)
 
 ### Sandbox {.unnumbered}
 

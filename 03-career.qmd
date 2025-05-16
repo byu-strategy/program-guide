@@ -1,6 +1,9 @@
 ---
-title: "Career Outcomes"
+title: "Careers"
 editor: visual
 numbered: false
 ---
 ![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
+
+![](images/2025-Strategy-MajorMinor-Flyer.png){fig-align="center" width="70%"}
+

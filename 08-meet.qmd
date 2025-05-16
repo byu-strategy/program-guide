@@ -2,4 +2,15 @@
 title: "Meet with someone"
 editor: visual
 ---
+
 ![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
+
+Still have questions? Get in touch and we'd be happy to chat with you.
+
+## Strategy Society Student Presidency {.unnumbered}
+
+- [President - Carter Boswell](mailto:cjboz@student.byu.edu)  
+- [VP of Student Development - Alex Napierski](mailto:ajnap3@student.byu.edu)  
+- [VP of Marketing - Cora Montgomery](mailto:coramo@student.byu.edu)  
+- [VP of Alumni - Dustin Hubnik](mailto:dhubnik@student.byu.edu)  
+- [VP of Events - Kolton Dahl](mailto:kdahl007@student.byu.edu)

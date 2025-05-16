@@ -5,8 +5,17 @@ editor: visual
 
 ![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
 
-## Strategy Program FAQ {.unnumbered}
+## Capstone Experiences {.unnumbered}
 
-## Product Management Track FAQ {.unnumbered}
+### Can I complete more than one [capstone](02-capstone.qmd) experience? {.unnumbered}
+
+Typically, it is only possible to complete one capstone experience. An exceptions to this would be if a student completed the [Sandbox](02-capstone.qmd#sandbox) program their sophomore year before entering the strategy major.
+
+## Course Subsitutions {.unnumbered}
+
+### Can I substitute other courses for my electives? {.unnumbered}
+
+In general no but expections may be granted with good justification for why the requested substitute course makes sense. Petitions for a subsitution may be submitted to [Lisa Giguere](mailto:lisa_giguere@byu.edu).
+
 
 
