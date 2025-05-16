@@ -15,9 +15,7 @@ book:
     - 06-apply.qmd
     - 07-faq.qmd
     - 08-meet.qmd
-
-
-
+    
 bibliography: references.bib
 
 format:
