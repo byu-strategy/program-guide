@@ -3,22 +3,7 @@ title: "Courses"
 editor: visual
 ---
 
-![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
-
-## Overview {.unnumbered}
-
-Strategy students engage with a challenging [curriculum](02-courses.qmd) that teaches them how to organize and structure available information, then articulate clear, logical decisions based on it.
-
-In doing this, students will:
-
--   Engage in [case study based classroom discussions](https://www.hbs.edu/mba/academic-experience/the-case-method)
--   Gather, analyze, and articulate insights from real world data using Excel, SQL, Python, and Tableau
--   Prepare and present CEO quality slide decks containing evidence-based recommendations
--   Gain proficiency with the latest AI tools
--   Learn foundational economic theory and strategy frameworks to guide their thinking
--   Complete a [capstone experience](capstone-experiences.qmd) for a real company where they either:
-    -   Analyze a real company's strategy and present tailored recommendations to it's leadership
-    -   Build a real physical or digital product from scratch (via [Sandbox](https://creators.byu.edu/sandbox/sandbox) or [Crocker Innovation Fellowship)](https://crockerinnovationfellows.com/), or complete a Product Mangement internship with a leading company.
+![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}s
 
 ## Major Pre-reqs {.unnumbered}
 

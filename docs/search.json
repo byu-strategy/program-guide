@@ -20,6 +20,16 @@
     ]
   },
   {
+    "objectID": "index.html#curriculum",
+    "href": "index.html#curriculum",
+    "title": "Strategic Management Program Guide",
+    "section": "Curriculum",
+    "text": "Curriculum\nThe Strategy curriculum is rigorous and covers both hard technical skills and soft people skills in order to give students the skills needed to lead, influence, and solve problems in today’s technology driven world.\nThrough our courses, students will:\n\nEngage in case study based classroom discussions\nGather, analyze, and articulate insights from real world data using Excel, SQL, Python, and Tableau\nPrepare and present CEO quality slide decks containing evidence-based recommendations\nGain proficiency with the latest AI tools\nLearn foundational economic theory and strategy frameworks to guide their thinking\nComplete a capstone experience for a real company where they either:\n\nAnalyze a real company’s strategy and present tailored recommendations to it’s leadership\nBuild a real physical or digital product from scratch (via Sandbox or Crocker Innovation Fellowship), or complete a Associate Product Manger (APM) internship with a leading company.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Program Overview</span>"
+    ]
+  },
+  {
     "objectID": "index.html#career-outcomes",
     "href": "index.html#career-outcomes",
     "title": "Strategic Management Program Guide",
@@ -34,17 +44,7 @@
     "href": "01-courses.html",
     "title": "2  Courses",
     "section": "",
-    "text": "Overview\nStrategy students engage with a challenging curriculum that teaches them how to organize and structure available information, then articulate clear, logical decisions based on it.\nIn doing this, students will:",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Courses</span>"
-    ]
-  },
-  {
-    "objectID": "01-courses.html#overview",
-    "href": "01-courses.html#overview",
-    "title": "2  Courses",
-    "section": "",
-    "text": "Engage in case study based classroom discussions\nGather, analyze, and articulate insights from real world data using Excel, SQL, Python, and Tableau\nPrepare and present CEO quality slide decks containing evidence-based recommendations\nGain proficiency with the latest AI tools\nLearn foundational economic theory and strategy frameworks to guide their thinking\nComplete a capstone experience for a real company where they either:\n\nAnalyze a real company’s strategy and present tailored recommendations to it’s leadership\nBuild a real physical or digital product from scratch (via Sandbox or Crocker Innovation Fellowship), or complete a Product Mangement internship with a leading company.",
+    "text": "Major Pre-reqs\nOne course from the following list:",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Courses</span>"
     ]
@@ -53,8 +53,8 @@
     "objectID": "01-courses.html#major-pre-reqs",
     "href": "01-courses.html#major-pre-reqs",
     "title": "2  Courses",
-    "section": "Major Pre-reqs",
-    "text": "Major Pre-reqs\n\nACC 200: Principles of Accounting\nIS 201: Introduction to Management Information Systems\n\nOne course from the following list:\n\nACC 310: Principles of Accounting 2\nECON 110: Economic Principles and Problems (starting in 2026, Econ 110 will be a required pre-req. In 2025 any course from this list will be accepted)\nFIN 201: Principles of Finance\nGSCM 201 & GSCM 211\nIS 303: Introduction to Computer Programming\nMKTG 201: Marketing Management\nSTAT 121: Principles of Statistics",
+    "section": "",
+    "text": "ACC 200: Principles of Accounting\nIS 201: Introduction to Management Information Systems\n\n\n\nACC 310: Principles of Accounting 2\nECON 110: Economic Principles and Problems (starting in 2026, Econ 110 will be a required pre-req. In 2025 any course from this list will be accepted)\nFIN 201: Principles of Finance\nGSCM 201 & GSCM 211\nIS 303: Introduction to Computer Programming\nMKTG 201: Marketing Management\nSTAT 121: Principles of Statistics",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Courses</span>"
     ]

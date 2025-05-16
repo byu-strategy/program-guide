@@ -47,6 +47,21 @@ The program is not the best fit for students who prefer highly scripted environm
 </script>
 ```
 
+## Curriculum  {.unnumbered}
+
+The Strategy curriculum is rigorous and covers both hard technical skills and soft people skills in order to give students the skills needed to lead, influence, and solve problems in today's technology driven world.
+
+Through our [courses](02-courses.qmd), students will:
+
+-   Engage in [case study based classroom discussions](https://www.hbs.edu/mba/academic-experience/the-case-method)
+-   Gather, analyze, and articulate insights from real world data using Excel, SQL, Python, and Tableau
+-   Prepare and present CEO quality slide decks containing evidence-based recommendations
+-   Gain proficiency with the latest AI tools
+-   Learn foundational economic theory and strategy frameworks to guide their thinking
+-   Complete a [capstone experience](capstone-experiences.qmd) for a real company where they either:
+    -   Analyze a real company's strategy and present tailored recommendations to it's leadership
+    -   Build a real physical or digital product from scratch (via [Sandbox](https://creators.byu.edu/sandbox/sandbox) or [Crocker Innovation Fellowship)](https://crockerinnovationfellows.com/), or complete a Associate Product Manger (APM) internship with a leading company.
+
 ## Career outcomes {.unnumbered}
 
 Strategy students graduate with a strong track record of placement in consulting, corporate strategy, and product management roles. The major consistently achieves [**100% placement**](https://byu-my.sharepoint.com/:b:/g/personal/murff_byu_edu/EVe5md0DtNhOrolfnGxg6fQB1F75peFtvGgYqT2rEkYJAg?e=J8Qt0U), with the **highest average starting salary in the Marriott School (\$83,000).**
