@@ -1,0 +1,5 @@
+---
+title: "Meet with someone"
+editor: visual
+---
+![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}

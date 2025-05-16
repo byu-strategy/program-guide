@@ -1,0 +1,12 @@
+---
+title: "FAQ"
+editor: visual
+---
+
+![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
+
+## Strategy Program FAQ {.unnumbered}
+
+## Product Management Track FAQ {.unnumbered}
+
+

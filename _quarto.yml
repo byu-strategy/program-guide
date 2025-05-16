@@ -1,14 +1,21 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "Strategic Management Program Overview"
+  title: "Strategic Management Program Guide"
   date: "5/14/2025"
   chapters:
     - index.qmd
-#    - intro.qmd
-#   - summary.qmd
-#    - references.qmd
+    - 01-courses.qmd
+    - 02-capstone.qmd
+    - 03-career.qmd
+    - 04-clubs.qmd
+    - 05-faculty.qmd
+    - 06-apply.qmd
+    - 07-faq.qmd
+    - 08-meet.qmd
+
 
 
 bibliography: references.bib
@@ -16,8 +23,6 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
 
 
 

@@ -1,0 +1,29 @@
+---
+title: "Apply"
+editor: visual
+---
+![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
+
+## Application Tips {.unnumbered}
+
+### Case preparation {.unnumbered}
+
+Your application will include responding to a case question. Answering a case question is a type of simulation that explores how you would think through a real business problem. You're asked to analyze a business situation, structure your thinking, and recommend a course of action. It tests how you break down complex problems, use data, and communicate solutions clearly and logically while under a bit of time pressure. It’s less about getting the “exact right answer” and more about demonstrating your approach to solving complex, ambiguous problems like those faced in real life business situations.
+
+You are strongly encouraged to practice several case questions before you complete your actual case interview.
+
+Below you will find two types of case questions both of which will be valuable to practice. The first two are past case questions from strategy admissions and the remainder are example cases from McKinsey and Company.
+
+[2023 case qustion and solution](https://byu-my.sharepoint.com/:w:/g/personal/murff_byu_edu/EYJXiOSdEslHqYeG5AQBLCQB21i0E1blVlS48a0T_oNxMQ?e=IrkYKv)
+
+[2024 case qustion and solution](https://byu-my.sharepoint.com/:w:/g/personal/murff_byu_edu/EY6gqE3YuhJBtc-IEHaNkbIBfsxePrwVqdYbLnxVnIS5dA?e=EeDaUA)
+
+The McKinsey cases are designed for 20 to 30 minute interviews so will be more involved than what you will have to answer in your application. If you do well on the McKinsey practice cases, you will likely do well on the strategy admission case.
+
+[Deliver financial services to the unbanked](https://www.mckinsey.com/careers/interviewing/diconsa)
+
+[Transform a national education system](https://www.mckinsey.com/careers/interviewing/national-education)
+
+[Assess the feasibility of manufacturing electric trucks](https://www.mckinsey.com/careers/interviewing/talbot-trucks)
+
+[Launch a new sports drink](https://www.mckinsey.com/careers/interviewing/electrolight)

@@ -1,0 +1,285 @@
+---
+title: "Courses"
+editor: visual
+---
+
+![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
+
+## Overview {.unnumbered}
+
+Strategy students engage with a challenging [curriculum](02-courses.qmd) that teaches them how to organize and structure available information, then articulate clear, logical decisions based on it.
+
+In doing this, students will:
+
+-   Engage in [case study based classroom discussions](https://www.hbs.edu/mba/academic-experience/the-case-method)
+-   Gather, analyze, and articulate insights from real world data using Excel, SQL, Python, and Tableau
+-   Prepare and present CEO quality slide decks containing evidence-based recommendations
+-   Gain proficiency with the latest AI tools
+-   Learn foundational economic theory and strategy frameworks to guide their thinking
+-   Complete a [capstone experience](capstone-experiences.qmd) for a real company where they either:
+    -   Analyze a real company's strategy and present tailored recommendations to it's leadership
+    -   Build a real physical or digital product from scratch (via [Sandbox](https://creators.byu.edu/sandbox/sandbox) or [Crocker Innovation Fellowship)](https://crockerinnovationfellows.com/), or complete a Product Mangement internship with a leading company.
+
+## Major Pre-reqs {.unnumbered}
+
+-   ACC 200: Principles of Accounting
+-   IS 201: Introduction to Management Information Systems
+
+One course from the following list:
+
+-   ACC 310: Principles of Accounting 2
+-   **ECON 110: Economic Principles and Problems** (starting in 2026, Econ 110 will be a required pre-req. In 2025 any course from this list will be accepted)
+-   FIN 201: Principles of Finance
+-   GSCM 201 & GSCM 211
+-   IS 303: Introduction to Computer Programming
+-   MKTG 201: Marketing Management
+-   STAT 121: Principles of Statistics
+
+## Minor Pre-reqs {.unnumbered}
+
+-   ACC 200: Principles of Accounting
+-   ECON 110: Econ Principles & Problems
+-   FIN 201: Principles of Finance (starting in 2026, this pre-req will be replaced by IS 201: Introduction to Information Systems. For 2025, either course will be accepted\*)
+
+*If you apply using IS 201 in 2025 you must email [Lisa Giguere](mailto:lisa_giguere@byu.edu) so she can substitute this for FIN 201 in your application.
+
+## Junior Year for Majors {.unnumbered}
+
+All newly admitted students enroll in the following courses their Junior year:
+
+### Fall Semester {.unnumbered}
+
+-   STRAT 326: Career Development (1.0 credit)
+-   STRAT 401: Strategy 1 (3.0 credits)
+-   STRAT 402: Strategy Analytics (3.0 credits)
+-   STRAT 431: Strategic Thinking (1.5 credits)
+
+Students who have not yet completed ECON 110 or STATS 
+
+**Students interested in applying for one of the three [Product Management capstone experiences](02-capstone.qmd#product-management-experiences) should also enroll in one of:**
+
+-   STRAT 490R: Creating Digital Products with AI: Strategy & Prototyping (3.0 credits)
+-   MSB 341: Product Management (3.0 credits)
+
+AND
+
+-   MSB 342: Product Management Lecture Series (1.0 credit)
+
+Students seeking to do either the Associate Product Manager (APM) Internship or Crocker Innovation Fellowship (read about all three [Product Management capstone experiences](02-capstone.qmd#product-management-experiences)) will **apply for these during Fall semester** 
+
+Students interested in doing the [Sandbox capstone experience](02-capstone.qmd#sandbox) will apply for that during **Winter** semester.
+
+All other students will complete the Business Analyst capstone experience their senior year while taking STRAT 421: Strategy Implementation. No separate application is required for the Business Analyst capstone experience.
+
+Each student completes a single capstone experience by the time they graduate.
+
+### Winter Semester {.unnumbered}
+
+-   STRAT 411: Strategy II (3.0 credits)
+-   STRAT 412: Strategy Analytics II (3.0 credits)
+-   STRAT 432: Strategic Thinking II (1.5 credits)
+
+Fall or Winter Semester Year 2 - STRAT 421: Strategy Implementation (3.0 credits) - STRAT 433: Strategic Thinking III (1.0 credits)
+
+Additional Elective Requirements Students also complete three electives to allow them to customize their path in addition to the core business requirements.
+
+Students interested in doing the [Sandbox capstone experience](02-capstone.qmd#sandbox) will apply during Winter semester of their Junior year.
+
+## Course List {.unnumbered}
+
+A list of courses and key questions addressed in each is shown in the table below:
+
+```{=html}
+<style>
+  table.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table.custom-table th, table.custom-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+  table.custom-table th {
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    background-color: #f5f5f5;
+  }
+
+  .highlight {
+    background-color: #f0f8ff; /* Light blue */
+  }
+
+  .legend-box {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+</style>
+```
+
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Course Number | Title                                                     | Key Question Addressed by the Class                                                                                                                                            |
++===============+===========================================================+================================================================================================================================================================================+
+| STRAT 401     | Intro to Strategic Management                             | How do firms sustain competitive advantage and capture value? (case discussions)                                                                                               |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 402     | Economics of Strategy                                     | What are the economic foundations that drive the success and failure of companies (e.g. competition, pricing, supply, demand, production, cost)?                               |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 411     | Competitive Strategy                                      | You play the role of consultant and answer for executives: What should the company do to improve performance in a competitive and always changing market? (case presentations) |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 412     | Data Analytics for Strategists                            | What is the data telling me? (gather, analyze, and communicate insights)                                                                                                       |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 431/432 | Strategic Thinking                                        | How can I apply rigorous thinking to broader, societal questions?                                                                                                              |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ENT 401       | Creativity and Innovation                                 | How do companies innovate and create more value for customers?                                                                                                                 |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 325     | Intro to Management Consulting                            | How can I best prepare to land the interview, nail it, and then excel in a Management Consulting job?                                                                          |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 490R    | Creating Digital Products with AI: Strategy & Prototyping | How can I leverage new AI tools to rapidly test and iterate on new digital product ideas? (build with AI-assisted coding)                                                      |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 490R    | Understanding AI: From Foundations to Strategy            | How does AI work under the hood and what can I expect and not expect from it? (explores the math and code)                                                                     |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 490R    | Enterprise Technology Strategy in the Age of AI           | How can leaders leverage AI to lead responsible digital transformation within their company?                                                                                   |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 490R    | Advanced Strategy Analytics                               | How can I apply advanced analytics to real business questions? (python, statistical methods)                                                                                   |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+------------------------------------------------------------------------
+
+Junior Core Electives
+
+```{=html}
+<h2>📘 Strategy Major Course Planner</h2>
+
+<div style="display: flex; flex-direction: column; gap: 2rem;">
+
+  <!-- Junior Year -->
+  <div>
+    <h3>Junior Year</h3>
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+      <!-- Fall -->
+      <div style="flex: 1; min-width: 300px;">
+        <h4>Fall Semester</h4>
+        <ul id="junior-fall" style="list-style-type: none; padding-left: 0;">
+          <li data-credits="1.0">✅ STRAT 326: Career Development (1.0)</li>
+          <li data-credits="3.0">✅ STRAT 401: Strategy I (3.0)</li>
+          <li data-credits="3.0">✅ STRAT 402: Strategy Analytics (3.0)</li>
+          <li data-credits="1.5">✅ STRAT 431: Strategic Thinking I (1.5)</li>
+        </ul>
+        <label>Elective: 
+          <select class="elective" data-target="junior-fall" data-credits="3.0">
+            <option value="">-- Select an elective --</option>
+            <option value="ENT 401">ENT 401: Creativity & Innovation</option>
+            <option value="MKTG 430">MKTG 430: Customer Analytics</option>
+          </select>
+        </label>
+        <p><strong>Fall Credits:</strong> <span id="junior-fall-total">0</span></p>
+      </div>
+
+      <!-- Winter -->
+      <div style="flex: 1; min-width: 300px;">
+        <h4>Winter Semester</h4>
+        <ul id="junior-winter" style="list-style-type: none; padding-left: 0;">
+          <li data-credits="3.0">✅ STRAT 411: Strategy II (3.0)</li>
+          <li data-credits="3.0">✅ STRAT 412: Strategy Analytics II (3.0)</li>
+          <li data-credits="1.5">✅ STRAT 432: Strategic Thinking II (1.5)</li>
+        </ul>
+        <label>Elective: 
+          <select class="elective" data-target="junior-winter" data-credits="3.0">
+            <option value="">-- Select an elective --</option>
+            <option value="MSB 472">MSB 472: Social Innovation</option>
+            <option value="IS 520">IS 520: Business Programming</option>
+          </select>
+        </label>
+        <p><strong>Winter Credits:</strong> <span id="junior-winter-total">0</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Senior Year -->
+  <div>
+    <h3>Senior Year</h3>
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+      <!-- Fall -->
+      <div style="flex: 1; min-width: 300px;">
+        <h4>Fall Semester</h4>
+        <ul id="senior-fall" style="list-style-type: none; padding-left: 0;">
+          <li data-credits="3.0">✅ STRAT 490R: Digital Products with AI (3.0)</li>
+        </ul>
+        <label>Elective: 
+          <select class="elective" data-target="senior-fall" data-credits="3.0">
+            <option value="">-- Select an elective --</option>
+            <option value="STRAT 490R: Enterprise AI Strategy">STRAT 490R: Enterprise AI Strategy</option>
+            <option value="ENT 491">ENT 491: Entrepreneurship Lab</option>
+          </select>
+        </label>
+        <p><strong>Fall Credits:</strong> <span id="senior-fall-total">0</span></p>
+      </div>
+
+      <!-- Winter -->
+      <div style="flex: 1; min-width: 300px;">
+        <h4>Winter Semester</h4>
+        <ul id="senior-winter" style="list-style-type: none; padding-left: 0;">
+          <li data-credits="3.0">✅ STRAT 490R: Understanding AI (3.0)</li>
+        </ul>
+        <label>Elective: 
+          <select class="elective" data-target="senior-winter" data-credits="3.0">
+            <option value="">-- Select an elective --</option>
+            <option value="STRAT 490R: Advanced Analytics">STRAT 490R: Advanced Analytics</option>
+            <option value="MSB 475">MSB 475: Global Business</option>
+          </select>
+        </label>
+        <p><strong>Winter Credits:</strong> <span id="senior-winter-total">0</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Total -->
+  <div>
+    <h3>Total Program Credits: <span id="total-program-credits">0</span></h3>
+  </div>
+
+</div>
+
+<script>
+  function computeCredits(containerId) {
+    const staticCourses = document.querySelectorAll(`#${containerId} li`);
+    const elective = document.querySelector(`select.elective[data-target="${containerId}"]`);
+    const electiveCredits = elective && elective.value ? parseFloat(elective.dataset.credits || 0) : 0;
+    const staticTotal = Array.from(staticCourses).reduce((sum, li) => sum + parseFloat(li.dataset.credits || 0), 0);
+    return staticTotal + electiveCredits;
+  }
+
+  function updateAllCredits() {
+    const ids = ["junior-fall", "junior-winter", "senior-fall", "senior-winter"];
+    let total = 0;
+    ids.forEach(id => {
+      const credits = computeCredits(id);
+      document.getElementById(`${id}-total`).textContent = credits.toFixed(1);
+      total += credits;
+    });
+    document.getElementById("total-program-credits").textContent = total.toFixed(1);
+  }
+
+  // Initial load
+  updateAllCredits();
+
+  // Recalculate when electives change
+  document.querySelectorAll("select.elective").forEach(select => {
+    select.addEventListener("change", updateAllCredits);
+  });
+</script>
+```
+
+## Course Planner  {.unnumbered}
+
+Use the tool below to plan your path through the Strategic Management major. Drag courses into the semester boxes and ensure a balanced credit load (recommended 12–18 credits per semester).
+
+<iframe src="course-planner.html" width="100%" height="900px" style="border:none;"></iframe>
+
+
+

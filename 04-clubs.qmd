@@ -1,0 +1,39 @@
+---
+title: "Clubs"
+editor: visual
+---
+
+![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
+
+## Sponsored Clubs {.unnumbered}
+
+The Strategic Management program sponsors four [clubs](https://clubs.byu.edu/) that help prepare students not only for admission to the program careers as well.
+
+- [The Management Consulting Association (MCA)](https://www.byumca.com/)
+- [The Product Management Association (PMA)](https://product.byu.edu/)
+- The Corporate Strategy Association (CSA)
+- [The Women in Strategy Association (WSA)](https://wsabyuteam.wixsite.com/byuwsa)
+
+It's not expected that a student would attend all of these clubs, but students interested in admission should plan to explore the clubs and see if there's one that they have particular interest in. 
+
+In addition to these four clubs all admitted students become part of the Strategy Society. The Strategy Society is led by a student leadership team who leads program wide events and initiatives. The strategy society presidency is also your first point of contact if you have questions about the program and whether it would be a good fit.
+
+- [President - Carter Boswell](mailto:cjboz@student.byu.edu)  
+- [VP of Student Development - Alex Napierski](mailto:ajnap3@student.byu.edu)  
+- [VP of Marketing - Cora Montgomery](mailto:coramo@student.byu.edu)  
+- [VP of Alumni - Dustin Hubnik](mailto:dhubnik@student.byu.edu)  
+- [VP of Events - Kolton Dahl](mailto:kdahl007@student.byu.edu)
+
+Specific questions about course offerings can be directed to [Lisa Giguere](mailto:lisa_giguere@byu.edu) from the [advisement office](https://marriott.byu.edu/advisement/center/contact/).
+
+Specific questions about career pathways can be directed to [Bill Keenan](mailto:bill_keenan@byu.edu) from the [Marriott Business Career Center](https://careerlaunch.byu.edu/meet-the-team).
+
+## Strategy Society {.unnumbered}
+
+## Management Consulting Association (MCA) {.unnumbered}
+
+## Product Management Association (PMA) {.unnumbered}
+
+## Corporate Strategy Association (CSA) {.unnumbered}
+
+## Women in Strategy Association (WSA) {.unnumbered}

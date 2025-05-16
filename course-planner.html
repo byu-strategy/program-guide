@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Strategic Management Course Planner</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    .column {
+      flex: 1;
+      min-width: 250px;
+    }
+    .box {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: #f9f9f9;
+    }
+    .box h3 {
+      margin-top: 0;
+    }
+    .course {
+      padding: 0.5rem;
+      margin: 0.25rem 0;
+      background: #e0f7fa;
+      border: 1px solid #ccc;
+      cursor: move;
+    }
+    .semester {
+      min-height: 150px;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="column">
+    <div class="box">
+      <h3>Course Pool</h3>
+      <div id="course-pool">
+        <!-- Required Courses -->
+        <div class="course" draggable="true">ACC 200 (3)</div>
+        <div class="course" draggable="true">IS 201 (3)</div>
+        <div class="course" draggable="true">ECON 110 (3)</div>
+        <div class="course" draggable="true">IS 110 (1)</div>
+        <div class="course" draggable="true">STAT 121 (3)</div>
+        <div class="course" draggable="true">MSB 180 (1)</div>
+        <div class="course" draggable="true">STRAT 326 (1)</div>
+        <div class="course" draggable="true">STRAT 401 (3)</div>
+        <div class="course" draggable="true">STRAT 402 (3)</div>
+        <div class="course" draggable="true">STRAT 431 (1.5)</div>
+        <div class="course" draggable="true">STRAT 411 (3)</div>
+        <div class="course" draggable="true">STRAT 412 (3)</div>
+        <div class="course" draggable="true">STRAT 432 (1.5)</div>
+        <div class="course" draggable="true">STRAT 421 (3)</div>
+        <div class="course" draggable="true">FIN 201 (3)</div>
+        <div class="course" draggable="true">GSCM 201 (1.5)</div>
+        <div class="course" draggable="true">GSCM 211 (1.5)</div>
+        <div class="course" draggable="true">M COM 320 (3)</div>
+        <div class="course" draggable="true">MKTG 201 (3)</div>
+        <div class="course" draggable="true">ENT 381 (1)</div>
+        <div class="course" draggable="true">ENT 382 (1)</div>
+        <div class="course" draggable="true">MSB 380 (1)</div>
+        <div class="course" draggable="true">MSB 381R (1)</div>
+        <div class="course" draggable="true">ACC 241 (3)</div>
+        <div class="course" draggable="true">ENT 302 (3)</div>
+        <div class="course" draggable="true">HRM 391 (3)</div>
+        <div class="course" draggable="true">MB 390 (3)</div>
+        <!-- Electives -->
+        <div class="course" draggable="true">Elective 1 (3)</div>
+        <div class="course" draggable="true">Elective 2 (3)</div>
+        <div class="course" draggable="true">Elective 3 (3)</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="box semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h3>Fall 1</h3>
+    </div>
+    <div class="box semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h3>Winter 1</h3>
+    </div>
+    <div class="box semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h3>Fall 2</h3>
+    </div>
+    <div class="box semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h3>Winter 2</h3>
+    </div>
+    <div class="box semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h3>Fall 3</h3>
+    </div>
+  </div>
+
+  <script>
+    function parseCredits(text) {
+      const match = text.match(/\\((\\d+(\\.\\d+)?)\\)/);
+      return match ? parseFloat(match[1]) : 0;
+    }
+
+    function calculateCredits(semesterBox) {
+      let total = 0;
+      semesterBox.querySelectorAll('.course').forEach(c => {
+        total += parseCredits(c.textContent);
+      });
+      return total;
+    }
+
+    function updateCreditWarnings() {
+      document.querySelectorAll('.semester').forEach(box => {
+        const title = box.querySelector('h3').textContent.split(' - ')[0];
+        const total = calculateCredits(box);
+        box.querySelector('h3').textContent = `${title} - ${total} credits`;
+        box.style.borderColor = total > 18 ? 'red' : '#ccc';
+      });
+    }
+
+    const courses = document.querySelectorAll('.course');
+    courses.forEach(course => {
+      course.addEventListener('dragstart', (e) => {
+        e.dataTransfer.setData('text/plain', e.target.outerHTML);
+      });
+    });
+
+    function allowDrop(ev) {
+      ev.preventDefault();
+    }
+
+    function drop(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData('text');
+      const target = ev.target.closest('.semester');
+      if (target) {
+        target.insertAdjacentHTML('beforeend', data);
+        const newEl = target.lastElementChild;
+        newEl.draggable = false;
+        newEl.style.opacity = 0.6;
+        updateCreditWarnings();
+      }
+    }
+
+    updateCreditWarnings();
+  </script>
+</body>
+</html>
