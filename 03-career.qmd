@@ -5,5 +5,7 @@ numbered: false
 ---
 ![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
 
+Specific questions about career pathways can be directed to [Bill Keenan](mailto:bill_keenan@byu.edu) from the [Marriott Business Career Center](https://careerlaunch.byu.edu/meet-the-team).
+
 ![](images/2025-Strategy-MajorMinor-Flyer.png){fig-align="center" width="70%"}
 

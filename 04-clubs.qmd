@@ -9,39 +9,204 @@ editor: visual
 
 The Strategic Management program sponsors four [clubs](https://clubs.byu.edu/) that help prepare students not only for admission to the program careers as well.
 
-- [The Management Consulting Association (MCA)](https://www.byumca.com/)
-- [The Product Management Association (PMA)](https://product.byu.edu/)
-- The Corporate Strategy Association (CSA)
-- [The Women in Strategy Association (WSA)](https://wsabyuteam.wixsite.com/byuwsa)
-
 It's not expected that a student would attend all of these clubs, but students interested in admission should plan to explore the clubs and see if there's one that they have particular interest in. 
-
-Specific questions about course offerings can be directed to [Lisa Giguere](mailto:lisa_giguere@byu.edu) from the [advisement office](https://marriott.byu.edu/advisement/center/contact/).
-
-Specific questions about career pathways can be directed to [Bill Keenan](mailto:bill_keenan@byu.edu) from the [Marriott Business Career Center](https://careerlaunch.byu.edu/meet-the-team).
 
 ### Strategy Society {.unnumbered}
 
 The Strategy Society is led by a student leadership team who leads program wide events and initiatives. The strategy society presidency is also your first point of contact if you have questions about the program and whether it would be a good fit.
 
-- [President - Carter Boswell](mailto:cjboz@student.byu.edu)  
-- [VP of Student Development - Alex Napierski](mailto:ajnap3@student.byu.edu)  
-- [VP of Marketing - Cora Montgomery](mailto:coramo@student.byu.edu)  
-- [VP of Alumni - Dustin Hubnik](mailto:dhubnik@student.byu.edu)  
-- [VP of Events - Kolton Dahl](mailto:kdahl007@student.byu.edu)
+<table style="width:100%; text-align: center;">
+  <tr>
+    <td>
+      <img src="images/carter.jpeg" alt="Carter Boswell" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Carter Boswell</strong><br>
+      President<br>
+      <a href="mailto:cjboz@student.byu.edu">Contact</a>
+    </td>
+    <td>
+      <img src="images/alex.jpeg" alt="Alex Napierski" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Alex Napierski</strong><br>
+      VP of Student Development<br>
+      <a href="mailto:ajnap3@student.byu.edu">Contact</a>
+    </td>
+    <td>
+      <img src="images/cora.jpeg" alt="Cora Montgomery" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Cora Montgomery</strong><br>
+      VP of Marketing<br>
+      <a href="mailto:coramo@student.byu.edu">Contact</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" style="text-align: center;">
+      <table style="margin: 0 auto; text-align: center;">
+        <tr>
+          <td style="padding: 0 2rem;">
+            <img src="images/dustin.jpeg" alt="Dustin Hubnik" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+            <strong>Dustin Hubnik</strong><br>
+            VP of Alumni<br>
+            <a href="mailto:dhubnik@student.byu.edu">Contact</a>
+          </td>
+          <td style="padding: 0 2rem;">
+            <img src="images/kolton.jpeg" alt="Kolton Dahl" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+            <strong>Kolton Dahl</strong><br>
+            VP of Events<br>
+            <a href="mailto:kdahl007@student.byu.edu">Contact</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
-### Management Consulting Association (MCA) {.unnumbered}
+### [Management Consulting Association (MCA)](https://www.byumca.com/) {.unnumbered}
 
-Details coming soon.
+Management consultants are elite problem-solvers, hired by companies to address complex business challenges and opportunities. By using a combination of structured thinking, analytical skills, and clear communication, consultants are able to assist primary decision-makers across a variety of industries in both the public and private sector.
 
-## Product Management Association (PMA) {.unnumbered}
+The MCA will prepare you for the real-world business world, with meetings run by students advanced in the consulting recruiting process, guest speakers who successfully navigated the consulting recruiting process, and trainings on interview best-practices, networking etiquette, and resume reviews.
 
-Details coming soon.
+The MCA is run by BYU students who have gone through the interview process and landed offers at the top consulting firms. The purpose of the MCA is to help you prepare to do the same! As a member of the MCA, you'll be surrounded by other high-performing and high-potential students in the Marriott school from all stages of the consulting preparation process who will become case practice partners and lifelong friends.
+
+Once an official member of the MCA, you will have access to a library of casing resources, including full case books and casing instructions, an essential portion of the recruiting process at any of the top consulting firms.
+
+MCA Meetings are **every Tuesday at 7pm** in the Tanner building throughout the Fall and Winter semesters.
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://clubs.byu.edu/p/clubview/18295873486205508" target="_blank" rel="noopener"
+     style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
+    Join the MCA
+  </a>
+</p>
+
+
+### [Product Management Association (PMA)](https://product.byu.edu/) {.unnumbered}
+
+The Product Management Association at Brigham Young University helps prepare students to become world-class product managers capable of transforming the world through Christlike leadership.
+
+To achieve our mission, Association activities will provide: 
+
+- Targeted skill development through workshops, case studies, and hands-on experiences.  
+- Industry connections via guest speakers, mentorship, and networking opportunities.  
+- Career placement support via resume coaching, interview prep, and job/intern referrals
+- A thriving community where students can explore, grow, and launch successful careers in product management. 
+
+<table style="width:100%; text-align: center;">
+  <tr>
+    <td>
+      <img src="images/spencer.jpeg" alt="Spencer Hintze" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Spencer Hintze</strong><br>
+      Co-president<br>
+      <a href="mailto:shintze1@student.byu.edu">Contact</a>
+    </td>
+    <td>
+      <img src="images/ella.jpeg" alt="Ella Moore" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Ella Moore</strong><br>
+      Co-president<br>
+      <a href="mailto:id214870@student.byu.edu">Contact</a>
+    </td>
+    <td>
+      <img src="images/carter-f.jpeg" alt="Carter Field" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Carter Field</strong><br>
+      VP – Marketing<br>
+      <a href="mailto:fieldcc@student.byu.edu">Contact</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/dylan.jpeg" alt="Dylan Mattern" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Dylan Mattern</strong><br>
+      VP – Data and Technology<br>
+      <a href="mailto:dmattern@student.byu.edu">Contact</a>
+    </td>
+    <td>
+      <img src="images/nate.jpeg" alt="Nathan McCauley" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Nathan McCauley</strong><br>
+      VP – Placement<br>
+      <a href="mailto:nmccaul@student.byu.edu">Contact</a>
+    </td>
+    <td>
+      <img src="images/philip.jpeg" alt="Philip Sun" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Philip Sun</strong><br>
+      VP – Events<br>
+      <a href="mailto:ps324@student.byu.edu">Contact</a>
+    </td>
+  </tr>
+</table>
+
+PMA Meetings are **every 1st Wednesday of the month at 5:30pm** in the Tanner building throughout the Fall and Winter semesters.
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://clubs.byu.edu/p/clubview/18295873486206095" target="_blank" rel="noopener"
+     style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
+    Join PMA
+  </a>
+</p>
 
 ### Corporate Strategy Association (CSA) {.unnumbered}
 
-Details coming soon.
+The purpose of the Corporate Strategy Association is to provide real-world business experience, hard-skills, and networking, through premium case competitions and great support. We offers members the opportunity to put their skills to the test in several case competitions each semester, as well as providing meetings where training is provided to help our members gain the skills necessary to be superior strategists.
 
-### Women in Strategy Association (WSA) {.unnumbered}
+CSA Meetings are **every Thursday at 7pm** in the Tanner building throughout the Fall and Winter semesters.
 
-Details coming soon.
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://clubs.byu.edu/p/clubview/18295873486205992" target="_blank" rel="noopener"
+     style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
+    Join CSA
+  </a>
+</p>
+
+### [Women in Strategy Association (WSA)](https://wsabyuteam.wixsite.com/byuwsa) {.unnumbered}
+
+The purpose of the Women in Strategy Association is to elevate every woman in business & support The BYU Marriott Strategy Program’s sense of purpose & community by fostering relationships within the program, enhancing professional opportunities, and expanding outreach to pre-business students. 
+
+WSA meetings are **every other Thursday at 5:30 - 6:30pm** in the Tanner building throughout the Fall and Winter semesters.
+
+<table style="width:100%; text-align: center;">
+  <tr>
+    <td>
+      <img src="images/rachel.jpeg" alt="Rachel Wasden" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Rachel Wasden</strong><br>
+      President<br>
+      <a href="mailto:rjwasden@byu.edu">Contact</a>
+    </td>
+    <td>
+      <img src="images/ella.jpeg" alt="Ella Moore" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Ella Moore</strong><br>
+      VP of Events<br>
+      <a href="mailto:id214870@byu.edu">Contact</a>
+    </td>
+    <td>
+      <img src="images/cora.jpeg" alt="Cora Montgomery" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+      <strong>Cora Montgomery</strong><br>
+      VP of Marketing<br>
+      <a href="mailto:coramo@byu.edu">Contact</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" style="text-align: center;">
+      <table style="margin: 0 auto; text-align: center;">
+        <tr>
+          <td style="padding: 0 2rem;">
+            <img src="images/sarah.jpeg" alt="Sarah Sun Kanell" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+            <strong>Sarah Sun Kanell</strong><br>
+            VP of Outreach<br>
+            <a href="mailto:sunsarah@byu.edu">Contact</a>
+          </td>
+          <td style="padding: 0 2rem;">
+            <img src="images/jacey.jpeg" alt="Jacey Robins" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+            <strong>Jacey Robins</strong><br>
+            VP of Membership<br>
+            <a href="mailto:jaceyrob@byu.edu">Contact</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://clubs.byu.edu/p/clubview/18295873491224737" target="_blank" rel="noopener"
+     style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
+    Join WSA
+  </a>
+</p>
+

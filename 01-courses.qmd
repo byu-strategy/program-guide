@@ -188,8 +188,7 @@ A list of courses and key questions addressed in each is shown in the table belo
 <span class="legend-box" style="background-color: #f0f8ff;"></span> Junior Core
 <span class="legend-box" style="background-color: #ffffff; border: 1px solid #ccc;"></span> Electives
 
-
-
+Still have questions? Read our [FAQ](07-faq.qmd) or email [Lisa Giguere](mailto:lisa_giguere@byu.edu) from the [advisement office](https://marriott.byu.edu/advisement/center/contact/).
 
 
 
