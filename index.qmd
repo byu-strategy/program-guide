@@ -51,14 +51,14 @@ The program is not the best fit for students who prefer highly scripted environm
 
 The Strategy curriculum is rigorous and covers both hard technical skills and soft people skills in order to give students the skills needed to lead, influence, and solve problems in today's technology driven world.
 
-Through our [courses](02-courses.qmd), students will:
+Through our [courses](01-courses.qmd), students will:
 
 -   Engage in [case study based classroom discussions](https://www.hbs.edu/mba/academic-experience/the-case-method)
 -   Gather, analyze, and articulate insights from real world data using Excel, SQL, Python, and Tableau
 -   Prepare and present CEO quality slide decks containing evidence-based recommendations
 -   Gain proficiency with the latest AI tools
 -   Learn foundational economic theory and strategy frameworks to guide their thinking
--   Complete a [capstone experience](capstone-experiences.qmd) for a real company where they either:
+-   Complete a [capstone experience](02-capstone.qmd) for a real company where they either:
     -   Analyze a real company's strategy and present tailored recommendations to it's leadership
     -   Build a real physical or digital product from scratch (via [Sandbox](https://creators.byu.edu/sandbox/sandbox) or [Crocker Innovation Fellowship)](https://crockerinnovationfellows.com/), or complete a Associate Product Manger (APM) internship with a leading company.
 
