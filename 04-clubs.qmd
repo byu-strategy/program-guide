@@ -36,7 +36,7 @@ The Strategy Society is led by a student leadership team who leads program wide 
 </div>
 <div class="profile-info">
   **Alex**  
-  VP of Student Development  
+  VP of  
   [Contact](mailto:ajnap3@student.byu.edu)
 </div>
 :::
@@ -48,7 +48,7 @@ The Strategy Society is led by a student leadership team who leads program wide 
 </div>
 <div class="profile-info">
   **Cora**  
-  VP of Marketing  
+  VP of   
   [Contact](mailto:coramo@student.byu.edu)
 </div>
 :::
