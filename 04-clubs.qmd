@@ -20,37 +20,36 @@ The Strategy Society is led by a student leadership team who leads program wide 
 :::: {.presidency-grid}
 
 ::: {.profile-card}
-<div class="profile-image">
-  <img src="images/carter.jpeg" alt="Carter Boswell">
-</div>
-<div class="profile-info">
-  **Carter Boswell**  
-  President  
-  [Contact](mailto:cjboz@student.byu.edu)
-</div>
+::: {.profile-image}
+![](images/carter.jpeg)
+:::
+::: {.profile-info}
+**Carter Boswell**  
+President  
+[Contact](mailto:cjboz@student.byu.edu)
+:::
 :::
 
 ::: {.profile-card}
-<div class="profile-image">
-  <img src="images/alex.jpeg" alt="Alex">
-</div>
-<div class="profile-info">
-  **Alex**  
-  VP of  
-  [Contact](mailto:ajnap3@student.byu.edu)
-</div>
+::: {.profile-image}
+![](images/alex.jpeg)
+:::
+::: {.profile-info}
+**Alex Napierski**  
+VP of  
+[Contact](mailto:ajnap3@student.byu.edu)
+:::
 :::
 
-
 ::: {.profile-card}
-<div class="profile-image">
-  <img src="images/cora.jpeg" alt="Cora">
-</div>
-<div class="profile-info">
-  **Cora**  
-  VP of   
-  [Contact](mailto:coramo@student.byu.edu)
-</div>
+::: {.profile-image}
+![](images/cora.jpeg)
+:::
+::: {.profile-info}
+**Cora Montgomery**  
+VP of  
+[Contact](mailto:coramo@student.byu.edu)
+:::
 :::
 
 ::::
@@ -58,28 +57,29 @@ The Strategy Society is led by a student leadership team who leads program wide 
 :::: {.presidency-grid}
 
 ::: {.profile-card}
-<div class="profile-image">
-  <img src="images/dustin.jpeg" alt="Dustin Hubnik">
-</div>
-<div class="profile-info">
-  **Dustin Hubnik**  
-  VP of Alumni  
-  [Contact](mailto:dhubnik@student.byu.edu)
-</div>
+::: {.profile-image}
+![](images/dustin.jpeg)
+:::
+::: {.profile-info}
+**Dustin Hubnik**  
+VP of Alumni  
+[Contact](mailto:dhubnik@student.byu.edu)
+:::
 :::
 
 ::: {.profile-card}
-<div class="profile-image">
-  <img src="images/kolton.jpeg" alt="Kolton Dahl">
-</div>
-<div class="profile-info">
-  **Kolton Dahl**  
-  VP of Events  
-  [Contact](mailto:kdahl007@student.byu.edu)
-</div>
+::: {.profile-image}
+![](images/kolton.jpeg)
+:::
+::: {.profile-info}
+**Kolton Dahl**  
+VP of Events  
+[Contact](mailto:kdahl007@student.byu.edu)
+:::
 :::
 
 ::::
+
 
 
 ### [Management Consulting Association (MCA)](https://www.byumca.com/) {.unnumbered}
@@ -116,24 +116,36 @@ To achieve our mission, Association activities will provide:
 :::: {.presidency-grid}
 
 ::: {.profile-card}
-<img src="images/spencer.jpeg" alt="Spencer Hintze" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/spencer.jpeg)
+:::
+::: {.profile-info}
 **Spencer Hintze**  
 Co-president  
 [Contact](mailto:shintze1@student.byu.edu)
 :::
+:::
 
 ::: {.profile-card}
-<img src="images/ella.jpeg" alt="Ella Moore" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/ella.jpeg)
+:::
+::: {.profile-info}
 **Ella Moore**  
 Co-president  
 [Contact](mailto:id214870@student.byu.edu)
 :::
+:::
 
 ::: {.profile-card}
-<img src="images/carter-f.jpeg" alt="Carter Field" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/carter-f.jpeg)
+:::
+::: {.profile-info}
 **Carter Field**  
 VP – Marketing  
 [Contact](mailto:fieldcc@student.byu.edu)
+:::
 :::
 
 ::::
@@ -141,27 +153,40 @@ VP – Marketing
 :::: {.presidency-grid}
 
 ::: {.profile-card}
-<img src="images/dylan.jpeg" alt="Dylan Mattern" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/dylan.jpeg)
+:::
+::: {.profile-info}
 **Dylan Mattern**  
 VP – Data and Technology  
 [Contact](mailto:dmattern@student.byu.edu)
 :::
+:::
 
 ::: {.profile-card}
-<img src="images/nate.jpeg" alt="Nathan McCauley" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/nate.jpeg)
+:::
+::: {.profile-info}
 **Nathan McCauley**  
 VP – Placement  
 [Contact](mailto:nmccaul@student.byu.edu)
 :::
+:::
 
 ::: {.profile-card}
-<img src="images/philip.jpeg" alt="Philip Sun" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/philip.jpeg)
+:::
+::: {.profile-info}
 **Philip Sun**  
 VP – Events  
 [Contact](mailto:ps324@student.byu.edu)
 :::
+:::
 
 ::::
+
 
 
 PMA Meetings are **every 1st Wednesday of the month at 5:30pm** in the Tanner building throughout the Fall and Winter semesters.
