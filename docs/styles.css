@@ -15,35 +15,15 @@
   flex-shrink: 0;
 }
 
-.profile-image {
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .profile-image img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  display: block !important;  /* <- new */
-  visibility: visible !important;  /* <- just in case */
-  opacity: 1 !important;  /* <- override accidental fades */
+  display: block;
 }
-
 
 .profile-info {
   margin-top: 0.5rem;
-  min-height: 100px; /* Adjust as needed */
   word-wrap: break-word;
-}
-
-@media (max-width: 600px) {
-  .profile-card {
-    width: 100%;
-    max-width: 300px;
-  }
 }

@@ -202,24 +202,36 @@ WSA meetings are **every other Thursday at 5:30 - 6:30pm** in the Tanner buildin
 :::: {.presidency-grid}
 
 ::: {.profile-card}
-<img src="images/rachel.jpeg" alt="Rachel Wasden" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/rachel.jpeg)
+:::
+::: {.profile-info}
 **Rachel Wasden**  
 President  
 [Contact](mailto:rjwasden@byu.edu)
 :::
+:::
 
 ::: {.profile-card}
-<img src="images/ella.jpeg" alt="Ella Moore" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/ella.jpeg)
+:::
+::: {.profile-info}
 **Ella Moore**  
 VP of Events  
 [Contact](mailto:id214870@byu.edu)
 :::
+:::
 
 ::: {.profile-card}
-<img src="images/cora.jpeg" alt="Cora Montgomery" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/cora.jpeg)
+:::
+::: {.profile-info}
 **Cora Montgomery**  
 VP of Marketing  
 [Contact](mailto:coramo@byu.edu)
+:::
 :::
 
 ::::
@@ -227,18 +239,27 @@ VP of Marketing
 :::: {.presidency-grid}
 
 ::: {.profile-card}
-<img src="images/sarah.jpeg" alt="Sarah Sun Kanell" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/sarah.jpeg)
+:::
+::: {.profile-info}
 **Sarah Sun Kanell**  
 VP of Outreach  
 [Contact](mailto:sunsarah@byu.edu)
 :::
+:::
 
 ::: {.profile-card}
-<img src="images/jacey.jpeg" alt="Jacey Robins" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+::: {.profile-image}
+![](images/jacey.jpeg)
+:::
+::: {.profile-info}
 **Jacey Robins**  
 VP of Membership  
 [Contact](mailto:jaceyrob@byu.edu)
 :::
+:::
 
 ::::
+
 
