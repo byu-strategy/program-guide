@@ -160,53 +160,46 @@ The purpose of the Women in Strategy Association is to elevate every woman in bu
 
 WSA meetings are **every other Thursday at 5:30 - 6:30pm** in the Tanner building throughout the Fall and Winter semesters.
 
-<table style="width:100%; text-align: center;">
-  <tr>
-    <td>
-      <img src="images/rachel.jpeg" alt="Rachel Wasden" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-      <strong>Rachel Wasden</strong><br>
-      President<br>
-      <a href="mailto:rjwasden@byu.edu">Contact</a>
-    </td>
-    <td>
-      <img src="images/ella.jpeg" alt="Ella Moore" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-      <strong>Ella Moore</strong><br>
-      VP of Events<br>
-      <a href="mailto:id214870@byu.edu">Contact</a>
-    </td>
-    <td>
-      <img src="images/cora.jpeg" alt="Cora Montgomery" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-      <strong>Cora Montgomery</strong><br>
-      VP of Marketing<br>
-      <a href="mailto:coramo@byu.edu">Contact</a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="3" style="text-align: center;">
-      <table style="margin: 0 auto; text-align: center;">
-        <tr>
-          <td style="padding: 0 2rem;">
-            <img src="images/sarah.jpeg" alt="Sarah Sun Kanell" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-            <strong>Sarah Sun Kanell</strong><br>
-            VP of Outreach<br>
-            <a href="mailto:sunsarah@byu.edu">Contact</a>
-          </td>
-          <td style="padding: 0 2rem;">
-            <img src="images/jacey.jpeg" alt="Jacey Robins" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-            <strong>Jacey Robins</strong><br>
-            VP of Membership<br>
-            <a href="mailto:jaceyrob@byu.edu">Contact</a>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+:::: {.presidency-grid}
 
-<p style="text-align: center; margin-top: 2rem;">
-  <a href="https://clubs.byu.edu/p/clubview/18295873491224737" target="_blank" rel="noopener"
-     style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
-    Join WSA
-  </a>
-</p>
+::: {.profile-card}
+<img src="images/rachel.jpeg" alt="Rachel Wasden" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+**Rachel Wasden**  
+President  
+[Contact](mailto:rjwasden@byu.edu)
+:::
+
+::: {.profile-card}
+<img src="images/ella.jpeg" alt="Ella Moore" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+**Ella Moore**  
+VP of Events  
+[Contact](mailto:id214870@byu.edu)
+:::
+
+::: {.profile-card}
+<img src="images/cora.jpeg" alt="Cora Montgomery" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+**Cora Montgomery**  
+VP of Marketing  
+[Contact](mailto:coramo@byu.edu)
+:::
+
+::::
+
+:::: {.presidency-grid}
+
+::: {.profile-card}
+<img src="images/sarah.jpeg" alt="Sarah Sun Kanell" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+**Sarah Sun Kanell**  
+VP of Outreach  
+[Contact](mailto:sunsarah@byu.edu)
+:::
+
+::: {.profile-card}
+<img src="images/jacey.jpeg" alt="Jacey Robins" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
+**Jacey Robins**  
+VP of Membership  
+[Contact](mailto:jaceyrob@byu.edu)
+:::
+
+::::
 

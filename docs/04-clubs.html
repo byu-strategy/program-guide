@@ -70,6 +70,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -167,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#sponsored-clubs" id="toc-sponsored-clubs" class="nav-link active" data-scroll-target="#sponsored-clubs">Sponsored Clubs</a>
@@ -307,36 +308,35 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="unnumbered anchored" data-anchor-id="women-in-strategy-association-wsa"><a href="https://wsabyuteam.wixsite.com/byuwsa">Women in Strategy Association (WSA)</a></h3>
 <p>The purpose of the Women in Strategy Association is to elevate every woman in business &amp; support The BYU Marriott Strategy Program’s sense of purpose &amp; community by fostering relationships within the program, enhancing professional opportunities, and expanding outreach to pre-business students.</p>
 <p>WSA meetings are <strong>every other Thursday at 5:30 - 6:30pm</strong> in the Tanner building throughout the Fall and Winter semesters.</p>
-<table style="width:100%; text-align: center;">
-<tbody><tr>
-<td>
-<img src="images/rachel.jpeg" alt="Rachel Wasden" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Rachel Wasden</strong><br> President<br> <a href="mailto:rjwasden@byu.edu">Contact</a>
-</td>
-<td>
-<img src="images/ella.jpeg" alt="Ella Moore" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Ella Moore</strong><br> VP of Events<br> <a href="mailto:id214870@byu.edu">Contact</a>
-</td>
-<td>
-<img src="images/cora.jpeg" alt="Cora Montgomery" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Cora Montgomery</strong><br> VP of Marketing<br> <a href="mailto:coramo@byu.edu">Contact</a>
-</td>
-</tr>
-<tr>
-<td colspan="3" style="text-align: center;">
-<table style="margin: 0 auto; text-align: center;">
-<tbody><tr>
-<td style="padding: 0 2rem;">
-<img src="images/sarah.jpeg" alt="Sarah Sun Kanell" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Sarah Sun Kanell</strong><br> VP of Outreach<br> <a href="mailto:sunsarah@byu.edu">Contact</a>
-</td>
-<td style="padding: 0 2rem;">
-<img src="images/jacey.jpeg" alt="Jacey Robins" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Jacey Robins</strong><br> VP of Membership<br> <a href="mailto:jaceyrob@byu.edu">Contact</a>
-</td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-<p style="text-align: center; margin-top: 2rem;">
-<a href="https://clubs.byu.edu/p/clubview/18295873491224737" target="_blank" rel="noopener" style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;"> Join WSA </a>
-</p>
+<div class="presidency-grid">
+<div class="profile-card">
+<p><img src="images/rachel.jpeg" alt="Rachel Wasden" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Rachel Wasden</strong><br>
+President<br>
+<a href="mailto:rjwasden@byu.edu">Contact</a></p>
+</div>
+<div class="profile-card">
+<p><img src="images/ella.jpeg" alt="Ella Moore" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Ella Moore</strong><br>
+VP of Events<br>
+<a href="mailto:id214870@byu.edu">Contact</a></p>
+</div>
+<div class="profile-card">
+<p><img src="images/cora.jpeg" alt="Cora Montgomery" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Cora Montgomery</strong><br>
+VP of Marketing<br>
+<a href="mailto:coramo@byu.edu">Contact</a></p>
+</div>
+</div>
+<div class="presidency-grid">
+<div class="profile-card">
+<p><img src="images/sarah.jpeg" alt="Sarah Sun Kanell" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Sarah Sun Kanell</strong><br>
+VP of Outreach<br>
+<a href="mailto:sunsarah@byu.edu">Contact</a></p>
+</div>
+<div class="profile-card">
+<p><img src="images/jacey.jpeg" alt="Jacey Robins" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br> <strong>Jacey Robins</strong><br>
+VP of Membership<br>
+<a href="mailto:jaceyrob@byu.edu">Contact</a></p>
+</div>
+</div>
 
 
 </section>
@@ -449,6 +449,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
