@@ -29,8 +29,11 @@
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  display: block;
+  display: block !important;  /* <- new */
+  visibility: visible !important;  /* <- just in case */
+  opacity: 1 !important;  /* <- override accidental fades */
 }
+
 
 .profile-info {
   margin-top: 0.5rem;
