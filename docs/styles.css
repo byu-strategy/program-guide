@@ -15,12 +15,23 @@
   flex-shrink: 0;
 }
 
+.profile-image {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .profile-image img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  display: block;
 }
+
 
 .profile-info {
   margin-top: 0.5rem;
@@ -34,3 +45,4 @@
     max-width: 300px;
   }
 }
+
