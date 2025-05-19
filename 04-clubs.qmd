@@ -20,24 +20,36 @@ The Strategy Society is led by a student leadership team who leads program wide 
 :::: {.presidency-grid}
 
 ::: {.profile-card}
-<img src="images/carter.jpeg" alt="Carter Boswell" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-**Carter Boswell**  
-President  
-[Contact](mailto:cjboz@student.byu.edu)
+<div class="profile-image">
+  <img src="images/carter.jpeg" alt="Carter Boswell">
+</div>
+<div class="profile-info">
+  **Carter Boswell**  
+  President  
+  [Contact](mailto:cjboz@student.byu.edu)
+</div>
 :::
 
 ::: {.profile-card}
-<img src="images/alex.jpeg" alt="Alex Napierski" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-**Alex Napierski**  
-VP of Student Development  
-[Contact](mailto:ajnap3@student.byu.edu)
+<div class="profile-image">
+  <img src="images/alex.jpeg" alt="Alex Napierski">
+</div>
+<div class="profile-info">
+  **Alex Napierski**  
+  VP of Student Development  
+  [Contact](mailto:ajnap3@student.byu.edu)
+</div>
 :::
 
 ::: {.profile-card}
-<img src="images/cora.jpeg" alt="Cora Montgomery" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-**Cora Montgomery**  
-VP of Marketing  
-[Contact](mailto:coramo@student.byu.edu)
+<div class="profile-image">
+  <img src="images/cora.jpeg" alt="Cora Montgomery">
+</div>
+<div class="profile-info">
+  **Cora Montgomery**  
+  VP of Marketing  
+  [Contact](mailto:coramo@student.byu.edu)
+</div>
 :::
 
 ::::
@@ -45,20 +57,29 @@ VP of Marketing
 :::: {.presidency-grid}
 
 ::: {.profile-card}
-<img src="images/dustin.jpeg" alt="Dustin Hubnik" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-**Dustin Hubnik**  
-VP of Alumni  
-[Contact](mailto:dhubnik@student.byu.edu)
+<div class="profile-image">
+  <img src="images/dustin.jpeg" alt="Dustin Hubnik">
+</div>
+<div class="profile-info">
+  **Dustin Hubnik**  
+  VP of Alumni  
+  [Contact](mailto:dhubnik@student.byu.edu)
+</div>
 :::
 
 ::: {.profile-card}
-<img src="images/kolton.jpeg" alt="Kolton Dahl" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"><br>
-**Kolton Dahl**  
-VP of Events  
-[Contact](mailto:kdahl007@student.byu.edu)
+<div class="profile-image">
+  <img src="images/kolton.jpeg" alt="Kolton Dahl">
+</div>
+<div class="profile-info">
+  **Kolton Dahl**  
+  VP of Events  
+  [Contact](mailto:kdahl007@student.byu.edu)
+</div>
 :::
 
 ::::
+
 
 ### [Management Consulting Association (MCA)](https://www.byumca.com/) {.unnumbered}
 
