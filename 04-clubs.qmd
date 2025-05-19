@@ -32,7 +32,7 @@ The Strategy Society is led by a student leadership team who leads program wide 
 
 ::: {.profile-card}
 <div class="profile-image">
-  <img src="images/alex.jpeg" alt="Alex Napierski">
+  <img src="images/alex.jpeg" alt="Alex">
 </div>
 <div class="profile-info">
   **Alex Napierski**  
@@ -41,9 +41,10 @@ The Strategy Society is led by a student leadership team who leads program wide 
 </div>
 :::
 
+
 ::: {.profile-card}
 <div class="profile-image">
-  <img src="images/cora.jpeg" alt="Cora Montgomery">
+  <img src="images/cora.jpeg" alt="Cora">
 </div>
 <div class="profile-info">
   **Cora Montgomery**  
