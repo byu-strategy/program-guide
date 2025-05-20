@@ -15,9 +15,13 @@ The Business Analyst consulting experience does not require a separate applicati
 
 Students may complete 1 of 3 possible product management experiences, each of which has its own application process and timeline.
 
+The Associate Product Manager (APM) Internship experience is administered by the Strategy program.
+ 
+Sandbox and the Crocker Innovation Fellowship are administered by the Entrepreneurship program. Admitted students to these programs receive elective credit that counts towards their Strategy degree. 
+
 ### Associate Product Manager (APM) Internship {.unnumbered}
 
-Students will complete a guaranteed four month APM Internship with a leading company. The internship may extend and convert to paida after 4 months depending on negotiations between the company and the student.
+Students will complete a guaranteed four month APM Internship with a leading company. The internship may extend and convert to paid after 4 months depending on negotiations between the company and the student.
 
 **Students interested in applying should enroll during the Fall of their Junior Year in one of:**
 
@@ -28,11 +32,17 @@ AND
 
 -   MSB 342: Product Management Lecture Series (1.0 credit)
 
+![](images/2025-strategy-pm-track-flyer.png){fig-align="center" width="75%"}
+
 ### Sandbox {.unnumbered}
 
 [Sandbox](https://creators.byu.edu/sandbox/sandbox) students spend two semesters working in a small team to build and launch launch a software tech business from scratch—one of the best experiences those interested in tech entrepreneurship or product management can get in school.
 
+In April of each year students completing sandbox have the opportunity to pitch what they've built to real investors. 
+
 Applications for Sandbox are completed during Winter Semester.
+
+[Follow on LinkedIn](https://www.linkedin.com/company/sandboxeducation/posts/?feedView=all)
 
 ### Crocker Innovation Fellowship {.unnumbered}
 

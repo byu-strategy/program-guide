@@ -13,9 +13,11 @@ It's not expected that a student would attend all of these clubs, but students i
 
 ### Strategy Society {.unnumbered}
 
-The Strategy Society is led by a student leadership team who leads program wide events and initiatives. The strategy society presidency is also your first point of contact if you have questions about the program and whether it would be a good fit.
+All admitted Strategy students become part of the Strategy Society.
 
-## Student Leadership
+The Strategy Society is led by a student leadership team who leads program wide events and initiatives. You can think of the Strategy Society as an umbrella organization for the four other sponsored clubs. 
+
+The Strategy Society presidency as well as club presidencies are your first point of contact if you have questions about the program and whether it would be a good fit.
 
 :::: {.presidency-grid}
 
@@ -80,8 +82,6 @@ VP of Events
 
 ::::
 
-
-
 ### [Management Consulting Association (MCA)](https://www.byumca.com/) {.unnumbered}
 
 Management consultants are elite problem-solvers, hired by companies to address complex business challenges and opportunities. By using a combination of structured thinking, analytical skills, and clear communication, consultants are able to assist primary decision-makers across a variety of industries in both the public and private sector.
@@ -112,6 +112,8 @@ To achieve our mission, Association activities will provide:
 - Industry connections via guest speakers, mentorship, and networking opportunities.  
 - Career placement support via resume coaching, interview prep, and job/intern referrals
 - A thriving community where students can explore, grow, and launch successful careers in product management. 
+
+PMA Meetings are **every 1st Wednesday of the month at 5:30pm** in the Tanner building throughout the Fall and Winter semesters.
 
 :::: {.presidency-grid}
 
@@ -187,10 +189,6 @@ VP – Events
 
 ::::
 
-
-
-PMA Meetings are **every 1st Wednesday of the month at 5:30pm** in the Tanner building throughout the Fall and Winter semesters.
-
 <p style="text-align: center; margin-top: 2rem;">
   <a href="https://clubs.byu.edu/p/clubview/18295873486206095" target="_blank" rel="noopener"
      style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
@@ -216,13 +214,6 @@ CSA Meetings are **every Thursday at 7pm** in the Tanner building throughout the
 The purpose of the Women in Strategy Association is to elevate every woman in business & support The BYU Marriott Strategy Program’s sense of purpose & community by fostering relationships within the program, enhancing professional opportunities, and expanding outreach to pre-business students. 
 
 WSA meetings are **every other Thursday at 5:30 - 6:30pm** in the Tanner building throughout the Fall and Winter semesters.
-
-<p style="text-align: center; margin-top: 2rem;">
-  <a href="https://clubs.byu.edu/p/clubview/18295873491224737" target="_blank" rel="noopener"
-     style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
-    Join WSA
-  </a>
-</p>
 
 :::: {.presidency-grid}
 
@@ -286,5 +277,12 @@ VP of Membership
 :::
 
 ::::
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://clubs.byu.edu/p/clubview/18295873491224737" target="_blank" rel="noopener"
+     style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
+    Join WSA
+  </a>
+</p>
 
 

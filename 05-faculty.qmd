@@ -5,4 +5,117 @@ editor: visual
 
 ![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
 
-Details coming soon.
+The Strategy faculty at Brigham Young University's Marriott School of Business comprises a distinguished group of scholars and educators dedicated to creating transformational learning experiences for students and advancing the field of strategic management. 
+
+The faculty's expertise spans innovation, competitive strategy, corporate governance, decision making, and artificial intelligence. Their research is widely published in leading academic journals, and they are actively involved in mentoring students and contributing to the academic community.
+
+:::: {.presidency-grid}
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/ben.jpeg)
+:::
+::: {.profile-info}
+**Ben Lewis**  
+Courses taught:  
+STRAT 402: Economics of Strategy  
+STRAT 412: Data Analytics for Strategists
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/dave.jpeg)
+:::
+::: {.profile-info}
+**David Bryce**  
+Courses taught:  
+STRAT 411: Competitive Strategy  
+STRAT 490R: Corporate Stategy
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/jim.jpeg)
+:::
+::: {.profile-info}
+**James Oldroyd**  
+Courses taught:  
+STRAT 392: Strategy and Economics  
+STRAT 431/432: Strategic Thinking
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/jeff.jpeg)
+:::
+::: {.profile-info}
+**Jeff Dyer**  
+Courses taught:  
+STRAT 401: Foundations of Strategy  
+ENT 401: Creativity and Innovation  
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/lena.jpeg)
+:::
+::: {.profile-info}
+**Lena Lizunova**  
+Courses taught:  
+STRAT 392: Strategy and Economics  
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/mark.jpeg)
+:::
+::: {.profile-info}
+**Mark Hansen**  
+Courses taught:  
+STRAT 402: Economics of Strategy  
+STRAT 431/432: Strategic Thinking
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/paul.jpeg)
+:::
+::: {.profile-info}
+**Paul Godfrey**  
+Courses taught:  
+STRAT 421: Strategy Implementation  
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/tim.jpeg)
+:::
+::: {.profile-info}
+**Timothy Gubler**  
+Courses taught:  
+STRAT 401: Foundations of Strategy  
+EMBA 683: Strategy
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/scott.jpeg)
+:::
+::: {.profile-info}
+**Scott Murff**  
+Courses taught:  
+STRAT 490R: Understanding AI: From Foundations to Strategy. 
+STRAT 490R: Creating Digital Products with AI: Strategy & Prototyping
+STRAT 325: Intro to Management Consulting
+:::
+:::
+
+::::

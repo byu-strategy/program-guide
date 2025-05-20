@@ -1,5 +1,5 @@
 ---
-title: "Meet with someone"
+title: "Meet Us"
 editor: visual
 ---
 
