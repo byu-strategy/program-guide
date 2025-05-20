@@ -27,6 +27,8 @@ format:
     link-external-newwindow: true
     css: styles.css
     markdown: default
+    includes:
+      in-header: google-analytics.html
     
 toc-title: On this page
       
