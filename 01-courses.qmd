@@ -73,7 +73,7 @@ Students admitted to the [Associate Product Manager (APM) Internship](02-capston
 
 ## Senior Year for Majors {.unnumbered}
 
-The senior year is largely self-directed, yeah
+During their senior year, students complete their chosen [capstone](02-capstone.qmd hey Audrey) experience. Students are encouraged to take other strategy electives based on their interests. 
 
 ### Fall Sememster {.unnumbered}
 
