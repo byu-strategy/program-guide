@@ -6,6 +6,7 @@ project:
 
 book:
   title: "Strategic Management Program Guide"
+  favicon: images/strategy-centered-blue-grey-square.png
   date: "5/14/2025"
   chapters:
     - index.qmd
