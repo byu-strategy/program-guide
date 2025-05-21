@@ -15,6 +15,8 @@ Specific questions about career pathways can be directed to [Bill Keenan](mailto
 
 The table below is an interactive pivot table allowing you to filter and analyze the data according to your interest.
 
+View on Desktop for better experience.
+
 <!-- Styles -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pivottable@2.23.0/dist/pivot.min.css">
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css">

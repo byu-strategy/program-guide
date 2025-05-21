@@ -55,3 +55,17 @@
   font-family: 'Inter', sans-serif;
 }
 
+
+/* Limit the width of the left sidebar in the Pivot UI */
+#output .pvtUi td.pvtAxisContainer {
+  width: 200px;          /* Shrink width — adjust to your preference */
+  vertical-align: top;
+}
+
+/* Optional: reduce padding and font size inside controls */
+#output .pvtUi select {
+  font-size: 12px;
+  padding: 4px;
+  max-width: 180px;
+}
+
