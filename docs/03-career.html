@@ -161,8 +161,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#explore-placement-data" id="toc-explore-placement-data" class="nav-link" data-scroll-target="#explore-placement-data">Explore Placement Data</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -191,14 +198,69 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/Strategy_Centered_blue_grey.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:65.0%"></p>
 </figure>
 </div>
-<p>Specific questions about career pathways can be directed to <a href="mailto:bill_keenan@byu.edu">Bill Keenan</a> from the <a href="https://careerlaunch.byu.edu/meet-the-team">Marriott Business Career Center</a>.</p>
+<section id="overview" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="overview">Overview</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/2025-Strategy-MajorMinor-Flyer.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
 </figure>
 </div>
+<p>Specific questions about career pathways can be directed to <a href="mailto:bill_keenan@byu.edu">Bill Keenan</a> from the <a href="https://careerlaunch.byu.edu/meet-the-team">Marriott Business Career Center</a>.</p>
+</section>
+<section id="explore-placement-data" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="explore-placement-data">Explore Placement Data</h2>
+<p>The table below is an interactive pivot table allowing you to filter and analyze the data according to your interest.</p>
+<!-- Styles -->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pivottable@2.23.0/dist/pivot.min.css"> <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css"></p>
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<!-- 👈 this is the missing part -->
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pivottable@2.23.0/dist/pivot.min.js"></script>
+<div id="output" style="margin: 2em;">
+
+</div>
+<script>
+  fetch("data/alum-first-job.csv")
+    .then(response => response.text())
+    .then(csvText => {
+      let data = Papa.parse(csvText, { header: true }).data;
+
+      // ✅ FILTER: Remove rows with blank company names
+      data = data.filter(row => {
+        const name = row["company.name"];
+        return name && name.trim() !== "";
+      });
+
+      // Render the pivot table
+      $("#output").pivotUI(data, {
+        rows: ["company.name"],
+        cols: ["grad_year_band"],
+        aggregatorName: "Count",
+        rendererName: "Table Barchart"
+      }, true);
+
+      // Optional: sort by totals after rendering
+      setTimeout(() => {
+        const table = $("#output table.pvtTable");
+        const rows = table.find("tbody tr").get();
+
+        rows.sort((a, b) => {
+          const countA = parseInt($(a).find("td:last").text()) || 0;
+          const countB = parseInt($(b).find("td:last").text()) || 0;
+          return countB - countA;
+        });
+
+        rows.forEach(row => {
+          table.find("tbody").append(row);
+        });
+      }, 100);
+    });
+</script>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

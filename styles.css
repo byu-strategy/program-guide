@@ -27,3 +27,31 @@
   margin-top: 0.5rem;
   word-wrap: break-word;
 }
+
+
+
+/*  */
+
+#output .pvtTable {
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#output .pvtTable th,
+#output .pvtTable td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+#output .pvtTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#output .pvtUi {
+  padding: 1rem;
+  background-color: #fafafa;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+}
+

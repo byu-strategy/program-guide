@@ -5,7 +5,65 @@ numbered: false
 ---
 ![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
 
-Specific questions about career pathways can be directed to [Bill Keenan](mailto:bill_keenan@byu.edu) from the [Marriott Business Career Center](https://careerlaunch.byu.edu/meet-the-team).
+## Overview {.unnumbered}
 
 ![](images/2025-Strategy-MajorMinor-Flyer.png){fig-align="center" width="70%"}
+
+Specific questions about career pathways can be directed to [Bill Keenan](mailto:bill_keenan@byu.edu) from the [Marriott Business Career Center](https://careerlaunch.byu.edu/meet-the-team).
+
+## Explore Placement Data {.unnumbered}
+
+The table below is an interactive pivot table allowing you to filter and analyze the data according to your interest.
+
+<!-- Styles -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pivottable@2.23.0/dist/pivot.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css">
+
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script> <!-- 👈 this is the missing part -->
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pivottable@2.23.0/dist/pivot.min.js"></script>
+
+
+<div id="output" style="margin: 2em;"></div>
+
+<script>
+  fetch("data/alum-first-job.csv")
+    .then(response => response.text())
+    .then(csvText => {
+      let data = Papa.parse(csvText, { header: true }).data;
+
+      // ✅ FILTER: Remove rows with blank company names
+      data = data.filter(row => {
+        const name = row["company.name"];
+        return name && name.trim() !== "";
+      });
+
+      // Render the pivot table
+      $("#output").pivotUI(data, {
+        rows: ["company.name"],
+        cols: ["grad_year_band"],
+        aggregatorName: "Count",
+        rendererName: "Table Barchart"
+      }, true);
+
+      // Optional: sort by totals after rendering
+      setTimeout(() => {
+        const table = $("#output table.pvtTable");
+        const rows = table.find("tbody tr").get();
+
+        rows.sort((a, b) => {
+          const countA = parseInt($(a).find("td:last").text()) || 0;
+          const countB = parseInt($(b).find("td:last").text()) || 0;
+          return countB - countA;
+        });
+
+        rows.forEach(row => {
+          table.find("tbody").append(row);
+        });
+      }, 100);
+    });
+</script>
 

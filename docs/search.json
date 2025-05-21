@@ -124,7 +124,17 @@
     "href": "03-career.html",
     "title": "4  Careers",
     "section": "",
-    "text": "Specific questions about career pathways can be directed to Bill Keenan from the Marriott Business Career Center.",
+    "text": "Overview\nSpecific questions about career pathways can be directed to Bill Keenan from the Marriott Business Career Center.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Careers</span>"
+    ]
+  },
+  {
+    "objectID": "03-career.html#explore-placement-data",
+    "href": "03-career.html#explore-placement-data",
+    "title": "4  Careers",
+    "section": "Explore Placement Data",
+    "text": "Explore Placement Data\nThe table below is an interactive pivot table allowing you to filter and analyze the data according to your interest.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Careers</span>"
     ]
