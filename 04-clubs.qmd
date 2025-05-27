@@ -38,7 +38,7 @@ President
 :::
 ::: {.profile-info}
 **Alex Napierski**  
-VP of  
+VP of Student Development  
 [Contact](mailto:ajnap3@student.byu.edu)
 :::
 :::
@@ -49,7 +49,7 @@ VP of
 :::
 ::: {.profile-info}
 **Cora Montgomery**  
-VP of  
+VP of Marketing  
 [Contact](mailto:coramo@student.byu.edu)
 :::
 :::
@@ -94,13 +94,38 @@ Once an official member of the MCA, you will have access to a library of casing 
 
 MCA Meetings are **every Tuesday at 7pm** in the Tanner building throughout the Fall and Winter semesters.
 
+:::: {.presidency-grid}
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/cole.jpeg)
+:::
+::: {.profile-info}
+**Cole Bourne**  
+Vice President of Resources    
+[Contact](mailto:c0leb@student.byu.edu)
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/dallan.jpeg)
+:::
+::: {.profile-info}
+**Dallan Clarke**  
+Vice President of Mentoring  
+[Contact](mailto:jdc295@student.byu.edu)
+:::
+:::
+
+::::
+
 <p style="text-align: center; margin-top: 2rem;">
   <a href="https://clubs.byu.edu/p/clubview/18295873486205508" target="_blank" rel="noopener"
      style="display: inline-block; background-color: #0063a6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
     Join the MCA
   </a>
 </p>
-
 
 ### [Product Management Association (PMA)](https://product.byu.edu/) {.unnumbered}
 
@@ -201,6 +226,32 @@ VP – Events
 The purpose of the Corporate Strategy Association is to provide real-world business experience, hard-skills, and networking, through premium case competitions and great support. We offers members the opportunity to put their skills to the test in several case competitions each semester, as well as providing meetings where training is provided to help our members gain the skills necessary to be superior strategists.
 
 CSA Meetings are **every Thursday at 7pm** in the Tanner building throughout the Fall and Winter semesters.
+
+:::: {.presidency-grid}
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/nick.jpeg)
+:::
+::: {.profile-info}
+**Nick Wynn**  
+Co-president   
+[Contact](mailto:nwynn@student.byu.edu)
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/ellie.jpeg)
+:::
+::: {.profile-info}
+**Ellie Sessions**  
+Co-president   
+[Contact](mailto:ellies88@student.byu.edu)
+:::
+:::
+
+::::
 
 <p style="text-align: center; margin-top: 2rem;">
   <a href="https://clubs.byu.edu/p/clubview/18295873486205992" target="_blank" rel="noopener"

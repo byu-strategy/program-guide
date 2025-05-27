@@ -75,6 +75,7 @@ The Strategy curriculum is rigorous and covers both hard technical skills and so
 
 Through our [courses](01-courses.qmd), students will:
 
+-   Learn structured problems solving
 -   Engage in [case study based classroom discussions](https://www.hbs.edu/mba/academic-experience/the-case-method)
 -   Gather, analyze, and articulate insights from real world data using Excel, SQL, Python, and Tableau
 -   Prepare and present CEO quality slide decks containing evidence-based recommendations

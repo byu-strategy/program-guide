@@ -41,20 +41,16 @@ All newly admitted students enroll in the following courses their Junior year:
 
 Students who have not completed ECON 110 or STATS 121 should enroll in these during their first Fall semester in the program.
 
-**Students interested in applying for one of the three [Product Management capstone experiences](02-capstone.qmd#product-management-experiences) should also enroll in one of:**
+**Students interested in applying for one of the three [Product Management capstone experiences](02-capstone.qmd#product-management-experiences) should also enroll in one or both of:**
 
--   STRAT 490R: Creating Digital Products with AI: Strategy & Prototyping (3.0 credits)
--   MSB 341: Product Management (3.0 credits)
-
-AND
-
--   MSB 342: Product Management Lecture Series (1.0 credit)
+-   MSB 341: Product Management (3.0 credits) & MSB 342: Product Management Lecture Series (1.0 credit) if planning to apply for the [APM Internship](02-capstone.qmd#associate-product-manager-apm-internship)
+-   ENT 401: Entrepreneurial Innovation (3.0 credits) if planning to apply to [Sandbox](02-capstone.qmd#sandbox) or the [Crocker Innovation Fellowship](02-capstone.qmd#crocker-innovation-fellowship)
 
 Students seeking to do either the Associate Product Manager (APM) Internship or Crocker Innovation Fellowship (read about all three [Product Management capstone experiences](02-capstone.qmd#product-management-experiences)) will **apply for these during Fall semester** 
 
 Students interested in doing the [Sandbox capstone experience](02-capstone.qmd#sandbox) will apply for that during **Winter** semester.
 
-All other students will complete the Business Analyst capstone experience their senior year while taking STRAT 421: Strategy Implementation. No separate application is required for the Business Analyst capstone experience.
+All other students will complete the [Business Analyst capstone experience](02-capstone.qmd#businessa-analyst-experience) their senior year while taking STRAT 421: Strategy Implementation. No separate application is required for the Business Analyst capstone experience.
 
 Each student completes a single capstone experience by the time they graduate.
 

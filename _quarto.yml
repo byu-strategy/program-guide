@@ -4,6 +4,7 @@ project:
   resources:
     - images
     - data/alum-first-job.csv
+    - scripts/pyramid.js
 
 book:
   title: "Strategic Management Program Guide"
