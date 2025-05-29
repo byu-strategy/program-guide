@@ -20,19 +20,19 @@ The field of strategy, also called strategic management, is a discipline within 
 
 The core questions in strategy are:
 
-- In what markets should we compete? (e.g., industries, geographies, customer segments)
-- What is the unique value we will offer? (e.g., lower costs, differentiated product features)
-- What capabilities and resources are necessary for us to be successful? (e.g., specialized skills, brand, culture)
-- How can we sustain our competitive advantage to build a durable business? (e.g., barriers to imitation, network effects)
+-   In what markets should we compete? (e.g., industries, geographies, customer segments)
+-   What is the unique value we will offer? (e.g., lower costs, differentiated product features)
+-   What capabilities and resources are necessary for us to be successful? (e.g., specialized skills, brand, culture)
+-   How can we sustain our competitive advantage to build a durable business? (e.g., barriers to imitation, network effects)
 
 These are complex, ambiguous, and high-stakes questions requiring the integration of knowledge spanning finance, marketing, operations, economics, and technology. Because of this complexity, the opportunity to major in strategy at the undergraduate level is very rare and almost always reserved for MBA and PhD level education. Indeed, BYU has one of the only Strategic Management undergraduate majors anywhere in the world.
 
 Why do we believe undergraduates at BYU are ready to study strategy when most institutions reserve it for graduate students? Simply put, BYU students are unlike any others. Many have already:
 
-- Served missions that required leadership, cross-cultural communication, and long-term planning
-- Worked in meaningful jobs or started businesses
-- Learned a second language and lived abroad
-- Married and taken on family responsibilities
+-   Served missions that required leadership, cross-cultural communication, and long-term planning
+-   Worked in meaningful jobs or started businesses
+-   Learned a second language and lived abroad
+-   Married and taken on family responsibilities
 
 BYU students are mission-driven individuals who routinely engage with big, life-shaping decisions. This maturity, combined with their intellectual rigor and values-based foundation, equips them to think strategically—grappling with ambiguity, balancing tradeoffs, and solving complex problems.
 
@@ -96,3 +96,57 @@ The major consistently achieves [**100% placement**](https://byu-my.sharepoint.c
 For students looking to go into consulting the Strategy major continues to place **highest number of students at [McKinsey, Bain, BCG (MBB) and other top consulting firms](https://byu-my.sharepoint.com/:b:/g/personal/murff_byu_edu/EXAQsKD1LS5Pm8VckCiUU4gBE9NLnEU2Oieu1exM-GKkUA?e=BxObQe)**.
 
 ![](images/BYUStrategy-Pipeline-25){fig-align="center" width="75%"}
+
+## Partnerships {.unnumbered}
+
+We are committed to giving our students the best education for careers in strategic management anywhere in the world. To this end, we actively look for partnerships and curate build relationships that provide additional value to our students. Our partnerships are described below:
+
+::: {style="text-align: center;"}
+<img src="images/management-consulted.png" alt="Management Consulted" style="max-width: 100%; height: auto;"/>
+:::
+
+Our partnership with Management Consulted give students access to an incredibly rich set of self-serve content that supports them throughout the entire recruiting lifecycle including:
+
+**600+ Practice Cases - 10+ Firm Styles**\
+- 10+ Industries Represented\
+- 4 Functions Represented\
+- Each with integrated solutions\
+- 28 Chatbot-style cases\
+- New cases added every month
+
+**25K+ Case Drills - Case Structure**\
+- Mental Math\
+- Chart/Graph/Exhibit\
+- Brainstorming
+
+**9 Video Courses - Consulting Industry Bootcamp**\
+- R/CL Bootcamp\
+- Networking Bootcamp\
+- Fit Interview Bootcamp\
+- Case Interview Bootcamp\
+- Mental Math Bootcamp\
+- Business Basics Bootcamp\
+- PowerPoint Bootcamp - Excel Bootcamp
+
+**12 Industry Primers - Automotive**\
+- Consumer Goods\
+- Fashion & Apparel\
+- Financial Services\
+- Healthcare\
+- Logistics & Transportation\
+- Oil & Gas\
+- Pharma\
+- Professional Services\
+- Public Sector & Government\
+- Real Estate\
+- TMT (Technology, Media, Telecom)
+
+::: {style="text-align: center;"}
+<img src="images/leland.png" alt="Management Consulted" style="max-width: 100%; height: auto;"/>
+:::
+
+Leland is an online coaching platform that helps match individuals with people have "been there, done that" (i.e. worked at the companies you want to work for) enabling highly tailored and relevant support.
+
+Strategy student who recieve an interview offer from a top company for which Leland has a coach are provided with a 45 minute mock interview/coaching session with an employee or alumni from the target company. This is a unique student benefit, currently only offered by the Strategy program.
+
+

@@ -251,6 +251,30 @@ Co-president
 :::
 :::
 
+::: {.profile-card}
+::: {.profile-image}
+![](images/tatum.jpeg)
+:::
+::: {.profile-info}
+**Tatum Frazier**  
+VP of Corporate Outreach   
+[Contact](mailto:tatumf2@student.byu.edu)
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/catherine.jpeg)
+:::
+::: {.profile-info}
+**Catherine Rolapp**  
+VP of Corporate Outreach   
+[Contact](mailto:crolapp@student.byu.edu)
+:::
+:::
+
+
+
 ::::
 
 <p style="text-align: center; margin-top: 2rem;">
