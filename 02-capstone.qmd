@@ -17,9 +17,11 @@ Students may complete 1 of 3 possible product management experiences, each of wh
 
 The Associate Product Manager (APM) Internship experience is administered by the Strategy program.
  
-Sandbox and the Crocker Innovation Fellowship are administered by the Entrepreneurship program. Admitted students to these programs receive elective credit that counts towards their Strategy degree. 
+Sandbox and the Crocker Innovation Fellowship are administered by the Entrepreneurship program. 
 
-### Associate Product Manager (APM) Internship {.unnumbered}
+Students earn a varying number of credits for each capstone experience which are described below. 
+
+### Associate Product Manager (APM) Internship (3.0-7.0 credits) {.unnumbered}
 
 Students will complete a guaranteed four month APM Internship with a leading company. The internship may extend and convert to paid after 4 months depending on negotiations between the company and the student.
 
@@ -34,7 +36,7 @@ AND
 
 ![](images/2025-strategy-pm-track-flyer.png){fig-align="center" width="75%"}
 
-### Sandbox {.unnumbered}
+### Sandbox (17.0 credits) {.unnumbered}
 
 [Sandbox](https://creators.byu.edu/sandbox/sandbox) students spend two semesters working in a small team to build and launch launch a software tech business from scratch—one of the best experiences those interested in tech entrepreneurship or product management can get in school.
 
@@ -44,7 +46,7 @@ Applications for Sandbox are completed during Winter Semester.
 
 [Follow on LinkedIn](https://www.linkedin.com/company/sandboxeducation/posts/?feedView=all)
 
-### Crocker Innovation Fellowship {.unnumbered}
+### Crocker Innovation Fellowship (6.0 credits) {.unnumbered}
 
 The [Crocker Innovation Fellowship](https://crockerinnovationfellows.com/) is an interdisciplinary innovation program that runs from January to December each year.  Students study and practice principles of innovation in Winter semester, learn through a summer internship, and then study and practice principles of innovation commercialization in the Fall semester.  Interested students from all majors are encouraged to apply.
 

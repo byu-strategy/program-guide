@@ -69,7 +69,7 @@ Students admitted to the [Associate Product Manager (APM) Internship](02-capston
 
 ## Senior Year for Majors {.unnumbered}
 
-During their senior year, students complete their chosen [capstone](02-capstone.qmd hey Audrey) experience. Students are encouraged to take other strategy electives based on their interests. 
+During their senior year, students complete their chosen [capstone](02-capstone.qmd) experience. Students are encouraged to take other strategy [electives](01-courses#course-list) based on their interests. 
 
 ### Fall Sememster {.unnumbered}
 
