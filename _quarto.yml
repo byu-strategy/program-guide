@@ -15,9 +15,10 @@ book:
     - 02-capstone.qmd
     - 03-career.qmd
     - 04-clubs.qmd
-    - 05-faculty.qmd
-    - 06-apply.qmd
-    - 07-faq.qmd
+    - 05-mentorship.qmd
+    - 06-faculty.qmd
+    - 07-apply.qmd
+    - 08-faq.qmd
     
 bibliography: references.bib
 
