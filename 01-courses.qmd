@@ -41,16 +41,16 @@ All newly admitted students enroll in the following courses their Junior year:
 
 Students who have not completed ECON 110 or STATS 121 should enroll in these during their first Fall semester in the program.
 
-**Students interested in applying for one of the three [Product Management capstone experiences](02-capstone.qmd#product-management-experiences) should also enroll in one or both of:**
+**Students interested in applying for one of the three [Product Management capstone experiences](02-tracks.qmd#product-management-experiences) should also enroll in one or both of:**
 
--   MSB 341: Product Management (3.0 credits) & MSB 342: Product Management Lecture Series (1.0 credit) if planning to apply for the [APM Internship](02-capstone.qmd#associate-product-manager-apm-internship)
--   ENT 401: Entrepreneurial Innovation (3.0 credits) if planning to apply to [Sandbox](02-capstone.qmd#sandbox) or the [Crocker Innovation Fellowship](02-capstone.qmd#crocker-innovation-fellowship)
+-   MSB 341: Product Management (3.0 credits) & MSB 342: Product Management Lecture Series (1.0 credit) if planning to apply for the [APM Internship](02-tracks.qmd#associate-product-manager-apm-internship)
+-   ENT 401: Entrepreneurial Innovation (3.0 credits) if planning to apply to [Sandbox](02-tracks.qmd#sandbox) or the [Crocker Innovation Fellowship](02-tracks.qmd#crocker-innovation-fellowship)
 
 Students seeking to do either the Associate Product Manager (APM) Internship or Crocker Innovation Fellowship will **apply for these during Fall semester** 
 
-Students interested in doing the [Sandbox capstone experience](02-capstone.qmd#sandbox) will apply for that during **Winter** semester.
+Students interested in doing the [Sandbox capstone experience](02-tracks.qmd#sandbox) will apply for that during **Winter** semester.
 
-All other students will complete the [Business Analyst capstone experience](02-capstone.qmd#businessa-analyst-experience) their senior year while taking STRAT 421: Strategy Implementation. No separate application is required for the Business Analyst capstone experience.
+All other students will complete the [Business Analyst capstone experience](02-tracks.qmd#businessa-analyst-experience) their senior year while taking STRAT 421: Strategy Implementation. No separate application is required for the Business Analyst capstone experience.
 
 Each student completes a single capstone experience by the time they graduate.
 
@@ -60,22 +60,22 @@ Each student completes a single capstone experience by the time they graduate.
 -   STRAT 412: Data Analytics for Strategists (3.0 credits)
 -   STRAT 432: Strategic Thinking II (1.5 credits)
 
-Students interested in doing the [Sandbox capstone experience](02-capstone.qmd#sandbox) will apply during Winter semester of their Junior year.
+Students interested in doing the [Sandbox capstone experience](02-tracks.qmd#sandbox) will apply during Winter semester of their Junior year.
 
-Students admitted to the [Associate Product Manager (APM) Internship](02-capstone.qmd#associate-product-manager-apm-internship) will also enroll in:
+Students admitted to the [Associate Product Manager (APM) Internship](02-tracks.qmd#associate-product-manager-apm-internship) will also enroll in:
 
 - STRAT 477: APM Lab (3.0 credits)
 - STRAT 490R: APM Capstone (1.0 credits)
 
 ## Senior Year for Majors {.unnumbered}
 
-During their senior year, students complete their chosen [capstone](02-capstone.qmd) experience. Students are encouraged to take other strategy [electives](01-courses#course-list) based on their interests. 
+During their senior year, students complete their chosen [capstone](02-tracks.qmd) experience. Students are encouraged to take other strategy [electives](01-courses#course-list) based on their interests. 
 
 ### Fall Sememster {.unnumbered}
 
 - STRAT 421: Strategy Implementation (3.0 credits)
 
-Students admitted to the [Associate Product Manager (APM) Internship](02-capstone.qmd#associate-product-manager-apm-internship) will also enroll in:
+Students admitted to the [Associate Product Manager (APM) Internship](02-tracks.qmd#associate-product-manager-apm-internship) will also enroll in:
 
 - ENT 401: Creativity and Innovation (3.0 credits)
 

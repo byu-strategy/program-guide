@@ -12,7 +12,7 @@ book:
   chapters:
     - index.qmd
     - 01-courses.qmd
-    - 02-capstone.qmd
+    - 02-tracks.qmd
     - 03-career.qmd
     - 04-clubs.qmd
     - 05-mentorship.qmd

@@ -81,7 +81,7 @@ Through our [courses](01-courses.qmd), students will:
 -   Prepare and present CEO quality slide decks containing evidence-based recommendations
 -   Gain proficiency with the latest AI tools
 -   Learn foundational economic theory and strategy frameworks to guide their thinking
--   Complete a [capstone experience](02-capstone.qmd) for a real company where they either:
+-   Complete a [capstone experience](02-tracks.qmd) for a real company where they either:
     -   Analyze a real company's strategy and present tailored recommendations to it's leadership
     -   Build a real physical or digital product from scratch (via [Sandbox](https://creators.byu.edu/sandbox/sandbox) or [Crocker Innovation Fellowship)](https://crockerinnovationfellows.com/), or complete a Associate Product Manger (APM) internship with a leading company.
 

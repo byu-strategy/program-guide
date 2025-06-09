@@ -1,19 +1,17 @@
 ---
-title: "Capstone Experiences"
+title: "Tracks"
 editor: visual
 ---
 
 ![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
 
-## Business Analyst Experience {.unnumbered}
+## Business Analyst Track {.unnumbered}
 
-Students who complete the Business Analyst capstone experience will partner with a company to address real strategic issues, gaining hands-on experience and client management skills. This is done Fall or Winter semester of senior year by enrolling in STRAT: 421 Strategy Implementation.
+New students entering the program are part of Business Analyst track by default and a separate application is not required. As part of this track, students will partner with a company to address real strategic issues, gaining hands-on experience and client management skills. This is done Fall or Winter semester of senior year by enrolling in STRAT: 421 Strategy Implementation.
 
-The Business Analyst consulting experience does not require a separate application. 
+## Product Management Track {.unnumbered}
 
-## Product Management Experiences {.unnumbered}
-
-Students may complete 1 of 3 possible product management experiences, each of which has its own application process and timeline.
+Students may opt-in to the Product Management track by completing 1 of 3 possible product management experiences, each of which has its own application process and timeline.
 
 The Associate Product Manager (APM) Internship experience is administered by the Strategy program.
  
