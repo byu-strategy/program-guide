@@ -37,5 +37,11 @@ toc-title: On this page
       
 number-sections: true
 
+website:
+  open-graph: true
+  twitter-card:
+    image: images/strat-logo.png
+    card-style: summary_large_image
+
 
 
