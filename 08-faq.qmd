@@ -3,8 +3,6 @@ title: "FAQ"
 editor: visual
 ---
 
-![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
-
 Don't see an answer to your question? [Ask us here.](https://forms.office.com/r/nYdpRyreD0)
 
 ## Capstone Experiences {.unnumbered}

@@ -3,8 +3,6 @@ title: "Courses"
 editor: visual
 ---
 
-![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
-
 ## Major Pre-reqs {.unnumbered}
 
 -   ACC 200: Principles of Accounting

@@ -3,8 +3,6 @@ title: "Clubs"
 editor: visual
 ---
 
-![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
-
 ## Sponsored Clubs {.unnumbered}
 
 The Strategic Management program sponsors four [clubs](https://clubs.byu.edu/) that help prepare students not only for admission to the program careers as well.

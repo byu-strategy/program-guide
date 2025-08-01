@@ -3,8 +3,6 @@ title: "Tracks"
 editor: visual
 ---
 
-![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
-
 ## Business Analyst Track {.unnumbered}
 
 New students entering the program are part of Business Analyst track by default and a separate application is not required. As part of this track, students will partner with a company to address real strategic issues, gaining hands-on experience and client management skills. This is done Fall or Winter semester of senior year by enrolling in STRAT: 421 Strategy Implementation.
@@ -14,10 +12,10 @@ New students entering the program are part of Business Analyst track by default 
 Students may opt-in to the Product Management track by completing 1 of 3 possible product management experiences, each of which has its own application process and timeline.
 
 The Associate Product Manager (APM) Internship experience is administered by the Strategy program.
- 
-Sandbox and the Crocker Innovation Fellowship are administered by the Entrepreneurship program. 
 
-Students earn a varying number of credits for each capstone experience which are described below. 
+Sandbox and the Crocker Innovation Fellowship are administered by the Entrepreneurship program.
+
+Students earn a varying number of credits for each capstone experience which are described below.
 
 ### Associate Product Manager (APM) Internship (3.0-7.0 credits) {.unnumbered}
 
@@ -38,7 +36,7 @@ AND
 
 [Sandbox](https://creators.byu.edu/sandbox/sandbox) students spend two semesters working in a small team to build and launch launch a software tech business from scratch—one of the best experiences those interested in tech entrepreneurship or product management can get in school.
 
-In April of each year students completing sandbox have the opportunity to pitch what they've built to real investors. 
+In April of each year students completing sandbox have the opportunity to pitch what they've built to real investors.
 
 Applications for Sandbox are completed during Winter Semester.
 
@@ -46,8 +44,8 @@ Applications for Sandbox are completed during Winter Semester.
 
 ### Crocker Innovation Fellowship (6.0 credits) {.unnumbered}
 
-The [Crocker Innovation Fellowship](https://crockerinnovationfellows.com/) is an interdisciplinary innovation program that runs from January to December each year.  Students study and practice principles of innovation in Winter semester, learn through a summer internship, and then study and practice principles of innovation commercialization in the Fall semester.  Interested students from all majors are encouraged to apply.
+The [Crocker Innovation Fellowship](https://crockerinnovationfellows.com/) is an interdisciplinary innovation program that runs from January to December each year. Students study and practice principles of innovation in Winter semester, learn through a summer internship, and then study and practice principles of innovation commercialization in the Fall semester. Interested students from all majors are encouraged to apply.
 
 Applications for the 2026 class will open Fall 2025.
 
-Email us at crockerfellows@gmail.com with any questions.
+Email us at crockerfellows\@gmail.com with any questions.

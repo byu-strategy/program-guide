@@ -3,7 +3,6 @@ title: "Careers"
 editor: visual
 numbered: false
 ---
-![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
 
 ## Overview {.unnumbered}
 

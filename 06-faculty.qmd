@@ -3,8 +3,6 @@ title: "Faculty"
 editor: visual
 ---
 
-![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
-
 The Strategy faculty at Brigham Young University's Marriott School of Business comprises a distinguished group of scholars and educators dedicated to creating transformational learning experiences for students and advancing the field of strategic management. 
 
 The faculty's expertise spans innovation, competitive strategy, corporate governance, decision making, and artificial intelligence. Their research is widely published in leading academic journals, and they are actively involved in mentoring students and contributing to the academic community.

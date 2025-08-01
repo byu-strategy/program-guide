@@ -2,7 +2,6 @@
 title: "Apply"
 editor: visual
 ---
-![](images/Strategy_Centered_blue_grey.png){fig-align="center" width="65%"}
 
 [Apply Here](https://marriott.byu.edu/apply/dashboard/). 
 
