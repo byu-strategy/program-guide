@@ -48,14 +48,16 @@ Students who have not completed ECON 110 or STATS 121 should enroll in these dur
 +------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Associate Product Builder (APB) Fellowship** | \- **STRAT 490R:** Creating Digital Products with AI: Strategy & Prototyping <br> - **MSB 342:** Product Management Lecture Series (1.0 credit) | 12-month experience; includes loan-based funding and stipend. Builds pre-validated products. Interviews mid-Fall; Selection depends on course performance, resume, commitment level, and interview. 5-10 slots per year. |
 +------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **[Sandbox](02-tracks.qmd#sandbox)**                                    | None formally required <br> *(Recommended: **ENT 401: Entrepreneurial Innovation, 3.0 credits**)*                                               | 2-semester experience launching a tech venture. Apply in Winter. 5-10 slots per year.                                                                                                                                    |
+| **Sandbox**                                    | None formally required                                                                                                                          | 2-semester experience launching a tech venture. Apply in Winter. 5-10 slots per year.                                                                                                                                    |
 +------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Crocker Innovation Fellowship**              | None formally required <br> *(Recommended: **ENT 401: Entrepreneurial Innovation, 3.0 credits**)*                                               | 12-month program. Apply in Fall. Best for physical product builders; applications open Fall 2025; Only 1-2 slots per year.                                                                                               |
+| **Crocker Innovation Fellowship**              | None formally required                                                                                                                          | 12-month program. Apply in Fall. Best for physical product builders; applications open Fall 2025; Only 1-2 slots per year.                                                                                               |
 +------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-All students not completing a Product track experience will complete the [Business Analyst experience](02-tracks.qmd#businessa-analyst-experience) during their senior year while taking STRAT 421: Strategy Implementation. No separate application or other pre-requisites beyond the Junior Core are required for the Business Analyst experience.
+Students interested in doing the [Sandbox capstone experience](02-tracks.qmd#sandbox) will apply for that during **Winter** semester.
 
-Each student completes a single experiential learning experience by the time they graduate.
+All other students will complete the [Business Analyst capstone experience](02-tracks.qmd#businessa-analyst-experience) their senior year while taking STRAT 421: Strategy Implementation. No separate application is required for the Business Analyst capstone experience.
+
+Each student completes a single capstone experience by the time they graduate.
 
 ### Winter Semester {.unnumbered}
 
@@ -65,27 +67,18 @@ Each student completes a single experiential learning experience by the time the
 
 Students interested in doing the [Sandbox capstone experience](02-tracks.qmd#sandbox) will apply during Winter semester of their Junior year.
 
-Students admitted to the [Associate Product Manager (APM) Internship](02-tracks.qmd#associate-product-manager-apm-internship)  or the [Associate Product Builder (APB) Fellowship](#associate-product-builder-apb-fellowship) will also enroll in:
+Students admitted to the [Associate Product Manager (APM) Internship](02-tracks.qmd#associate-product-manager-apm-internship) will also enroll in:
 
 -   STRAT 477: APM Lab (3.0 credits)
+-   STRAT 490R: APM Capstone (1.0 credits)
 
 ## Senior Year for Majors {.unnumbered}
 
-During their senior year, students complete any remaining core business courses, [Strategy electives](01-courses#course-list), and their [experiential learning experience](02-tracks.qmd) if not already complete.
+During their senior year, students complete their chosen [capstone](02-tracks.qmd) experience. Students are encouraged to take other strategy [electives](01-courses#course-list) based on their interests.
+
+### Fall Sememster {.unnumbered}
 
 -   STRAT 421: Strategy Implementation (3.0 credits)
-
-OR
-
--   STRAT 477: APM Lab (3.0 credits)
-
-OR 
-
--Sandbox courses
-
-OR 
-
-Crocker Innovation Fellowship courses
 
 Students admitted to the [Associate Product Manager (APM) Internship](02-tracks.qmd#associate-product-manager-apm-internship) will also enroll in:
 
