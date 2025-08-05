@@ -24,7 +24,7 @@ One course from the following list:
 -   ECON 110: Econ Principles & Problems
 -   FIN 201: Principles of Finance (starting in 2026, this pre-req will be replaced by IS 201: Introduction to Information Systems. For 2025, either course will be accepted\*)
 
-*If you apply using IS 201 in 2025 you must email [Lisa Giguere](mailto:lisa_giguere@byu.edu) so she can substitute this for FIN 201 in your application.
+\*If you apply using IS 201 in 2025 you must email [Lisa Giguere](mailto:lisa_giguere@byu.edu) so she can substitute this for FIN 201 in your application.
 
 ## Junior Year for Majors {.unnumbered}
 
@@ -39,18 +39,23 @@ All newly admitted students enroll in the following courses their Junior year:
 
 Students who have not completed ECON 110 or STATS 121 should enroll in these during their first Fall semester in the program.
 
-**Students interested in applying for one of the three [Product Management capstone experiences](02-tracks.qmd#product-management-experiences) should also enroll in one or both of:**
+**Students interested in applying for the [Product track](02-tracks.qmd#product-management-experiences) should also enroll in the following:**
 
--   MSB 341: Product Management (3.0 credits) & MSB 342: Product Management Lecture Series (1.0 credit) if planning to apply for the [APM Internship](02-tracks.qmd#associate-product-manager-apm-internship)
--   ENT 401: Entrepreneurial Innovation (3.0 credits) if planning to apply to [Sandbox](02-tracks.qmd#sandbox) or the [Crocker Innovation Fellowship](02-tracks.qmd#crocker-innovation-fellowship)
++------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Experiential Learning Option                   | Fall Pre-Req Courses to Take                                                                                                                    | Notes                                                                                                                                                                                                                    |
++================================================+=================================================================================================================================================+==========================================================================================================================================================================================================================+
+| **Associate Product Manager (APM) Internship** | \- **MSB 341:** Product Management (3.0 credits) <br> - **MSB 342:** Product Management Lecture Series (1.0 credit)                             | 4-month experience, may extend. Interviews mid-Fall; selection depends on course performance & company needs. 15-20 slots per year.                                                                                      |
++------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Associate Product Builder (APB) Fellowship** | \- **STRAT 490R:** Creating Digital Products with AI: Strategy & Prototyping <br> - **MSB 342:** Product Management Lecture Series (1.0 credit) | 12-month experience; includes loan-based funding and stipend. Builds pre-validated products. Interviews mid-Fall; Selection depends on course performance, resume, commitment level, and interview. 5-10 slots per year. |
++------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **[Sandbox](02-tracks.qmd#sandbox)**                                    | None formally required <br> *(Recommended: **ENT 401: Entrepreneurial Innovation, 3.0 credits**)*                                               | 2-semester experience launching a tech venture. Apply in Winter. 5-10 slots per year.                                                                                                                                    |
++------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Crocker Innovation Fellowship**              | None formally required <br> *(Recommended: **ENT 401: Entrepreneurial Innovation, 3.0 credits**)*                                               | 12-month program. Apply in Fall. Best for physical product builders; applications open Fall 2025; Only 1-2 slots per year.                                                                                               |
++------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Students seeking to do either the Associate Product Manager (APM) Internship or Crocker Innovation Fellowship will **apply for these during Fall semester** 
+All students not completing a Product track experience will complete the [Business Analyst experience](02-tracks.qmd#businessa-analyst-experience) during their senior year while taking STRAT 421: Strategy Implementation. No separate application or other pre-requisites beyond the Junior Core are required for the Business Analyst experience.
 
-Students interested in doing the [Sandbox capstone experience](02-tracks.qmd#sandbox) will apply for that during **Winter** semester.
-
-All other students will complete the [Business Analyst capstone experience](02-tracks.qmd#businessa-analyst-experience) their senior year while taking STRAT 421: Strategy Implementation. No separate application is required for the Business Analyst capstone experience.
-
-Each student completes a single capstone experience by the time they graduate.
+Each student completes a single experiential learning experience by the time they graduate.
 
 ### Winter Semester {.unnumbered}
 
@@ -60,27 +65,37 @@ Each student completes a single capstone experience by the time they graduate.
 
 Students interested in doing the [Sandbox capstone experience](02-tracks.qmd#sandbox) will apply during Winter semester of their Junior year.
 
-Students admitted to the [Associate Product Manager (APM) Internship](02-tracks.qmd#associate-product-manager-apm-internship) will also enroll in:
+Students admitted to the [Associate Product Manager (APM) Internship](02-tracks.qmd#associate-product-manager-apm-internship)  or the [Associate Product Builder (APB) Fellowship](#associate-product-builder-apb-fellowship) will also enroll in:
 
-- STRAT 477: APM Lab (3.0 credits)
-- STRAT 490R: APM Capstone (1.0 credits)
+-   STRAT 477: APM Lab (3.0 credits)
 
 ## Senior Year for Majors {.unnumbered}
 
-During their senior year, students complete their chosen [capstone](02-tracks.qmd) experience. Students are encouraged to take other strategy [electives](01-courses#course-list) based on their interests. 
+During their senior year, students complete any remaining core business courses, [Strategy electives](01-courses#course-list), and their [experiential learning experience](02-tracks.qmd) if not already complete.
 
-### Fall Sememster {.unnumbered}
+-   STRAT 421: Strategy Implementation (3.0 credits)
 
-- STRAT 421: Strategy Implementation (3.0 credits)
+OR
+
+-   STRAT 477: APM Lab (3.0 credits)
+
+OR 
+
+-Sandbox courses
+
+OR 
+
+Crocker Innovation Fellowship courses
 
 Students admitted to the [Associate Product Manager (APM) Internship](02-tracks.qmd#associate-product-manager-apm-internship) will also enroll in:
 
-- ENT 401: Creativity and Innovation (3.0 credits)
+-   ENT 401: Creativity and Innovation (3.0 credits)
 
 ## Course List {.unnumbered}
 
 A list of courses and key questions addressed in each is shown in the table below:
 
+```{=html}
 <style>
   table.custom-table {
     border-collapse: collapse;
@@ -111,81 +126,36 @@ A list of courses and key questions addressed in each is shown in the table belo
     vertical-align: middle;
   }
 </style>
+```
 
-<table class="custom-table">
-  <thead>
-    <tr>
-      <th>Course Number</th>
-      <th>Title</th>
-      <th>Key Question Addressed in the Class</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="highlight">
-      <td>STRAT 401</td>
-      <td>Intro to Strategic Management</td>
-      <td>How do firms sustain competitive advantage and capture value? (case discussions)</td>
-    </tr>
-    <tr class="highlight">
-      <td>STRAT 402</td>
-      <td>Economics of Strategy</td>
-      <td>What are the economic foundations that drive the success and failure of companies (e.g. competition, pricing, supply, demand, production, cost)?</td>
-    </tr>
-    <tr class="highlight">
-      <td>STRAT 411</td>
-      <td>Competitive Strategy</td>
-      <td>You play the role of consultant and answer for executives: What should the company do to improve performance in a competitive and always changing market? (case presentations)</td>
-    </tr>
-    <tr class="highlight">
-      <td>STRAT 412</td>
-      <td>Data Analytics for Strategists</td>
-      <td>What is the data telling me? (gather, analyze, and communicate insights)</td>
-    </tr>
-    <tr class="highlight">
-      <td>STRAT 431/432</td>
-      <td>Strategic Thinking</td>
-      <td>How can I apply rigorous thinking to broader, societal questions?</td>
-    </tr>
-    <tr>
-      <td>ENT 401</td>
-      <td>Creativity and Innovation</td>
-      <td>How do companies innovate and create more value for customers?</td>
-    </tr>
-    <tr>
-      <td>STRAT 325</td>
-      <td>Intro to Management Consulting</td>
-      <td>How can I best prepare to land the interview, nail it, and then excel in a Management Consulting job?</td>
-    </tr>
-    <tr>
-      <td>STRAT 490R</td>
-      <td>Corporate Strategy</td>
-      <td>How should a company choose and manage its portfolio of businesses to create long-term value?</td>
-    </tr>
-    <tr>
-      <td>STRAT 490R</td>
-      <td>Creating Digital Products with AI: Strategy & Prototyping</td>
-      <td>How can I leverage new AI tools to rapidly test and iterate on new digital product ideas? (build with AI-assisted coding)</td>
-    </tr>
-    <tr>
-      <td>STRAT 490R</td>
-      <td>Understanding AI: From Foundations to Strategy</td>
-      <td>How does AI work under the hood and what can I expect and not expect from it? (explores the math and code)</td>
-    </tr>
-    <tr>
-      <td>STRAT 490R</td>
-      <td>Advanced Strategy Analytics</td>
-      <td>How can I apply advanced analytics to real business questions? (python, statistical methods)</td>
-    </tr>
-  </tbody>
-</table>
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Course Number | Title                                                     | Key Question Addressed in the Class                                                                                                                                            |
++===============+===========================================================+================================================================================================================================================================================+
+| STRAT 401     | Intro to Strategic Management                             | How do firms sustain competitive advantage and capture value? (case discussions)                                                                                               |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 402     | Economics of Strategy                                     | What are the economic foundations that drive the success and failure of companies (e.g. competition, pricing, supply, demand, production, cost)?                               |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 411     | Competitive Strategy                                      | You play the role of consultant and answer for executives: What should the company do to improve performance in a competitive and always changing market? (case presentations) |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 412     | Data Analytics for Strategists                            | What is the data telling me? (gather, analyze, and communicate insights)                                                                                                       |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 431/432 | Strategic Thinking                                        | How can I apply rigorous thinking to broader, societal questions?                                                                                                              |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ENT 401       | Creativity and Innovation                                 | How do companies innovate and create more value for customers?                                                                                                                 |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 325     | Intro to Management Consulting                            | How can I best prepare to land the interview, nail it, and then excel in a Management Consulting job?                                                                          |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 490R    | Corporate Strategy                                        | How should a company choose and manage its portfolio of businesses to create long-term value?                                                                                  |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 490R    | Creating Digital Products with AI: Strategy & Prototyping | How can I leverage new AI tools to rapidly test and iterate on new digital product ideas? (build with AI-assisted coding)                                                      |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 490R    | Understanding AI: From Foundations to Strategy            | How does AI work under the hood and what can I expect and not expect from it? (explores the math and code)                                                                     |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STRAT 490R    | Advanced Strategy Analytics                               | How can I apply advanced analytics to real business questions? (python, statistical methods)                                                                                   |
++---------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
----
+------------------------------------------------------------------------
 
-<span class="legend-box" style="background-color: #f0f8ff;"></span> Junior Core
-<span class="legend-box" style="background-color: #ffffff; border: 1px solid #ccc;"></span> Electives
+Junior Core Electives
 
 Still have questions? Read our [FAQ](08-faq.qmd) or email [Lisa Giguere](mailto:lisa_giguere@byu.edu) from the [advisement office](https://marriott.byu.edu/advisement/center/contact/).
-
-
-
-
