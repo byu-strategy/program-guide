@@ -41,7 +41,7 @@ Mid-way through Fall semester, interested students will interview with both a fa
 
 ![](images/2025-strategy-pm-track-flyer.png){fig-align="center" width="75%"}
 
-### Associate Product Builder (APB) Fellowship {.unnumbered}
+### Associate Product Builder (APB) Fellowship (Coming Soon; details may change) {.unnumbered}
 
 The Associate Product Builder (APB) Fellowship is a 12-month experiential learning experience where students build and deliver to market a pre-validated product concept from the Strategy Foundry and seek to earn real revenue, starting Winter of their junior year. The experience is partly modeled after LinkedIn's first-ever [Associate Product Builder (APB) program](https://careers.linkedin.com/pathways-programs/entry-level/apb). 
 
@@ -81,3 +81,15 @@ Applications for the 2026 class will open Fall 2025.
 Email crockerfellows\@gmail.com with any questions.
 
 There are no formal pre-reqs.
+
+## Research Track {.unnumbered}
+
+The Research Track is designed for students who would like to publish a paper and/or prepare for  a Ph.D. in Strategy or a related field.
+
+Students intersted in the Research Track should enroll in the following courses:
+
+MBA 593R Section 2 (Fall of Junior Year): Introduction to PhD-level Research in Management.
+
+STRAT 490R (Winter): Strategy Pre-PhD Prep.
+
+Other STATS and ECON classes that will develop your quantitative and data analytic skills.
