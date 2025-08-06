@@ -124,6 +124,8 @@
 
 
 .book-header-banner {
+  width: 100%;
+  display: block;
   text-align: center;   /* Centers the image */
   background-color: #f0f2f5; /* Light gray shading */
   padding: 20px 0;      /* Add space above and below */

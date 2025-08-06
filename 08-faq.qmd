@@ -7,7 +7,7 @@ Don't see an answer to your question? [Ask us here.](https://forms.office.com/r/
 
 ## Capstone Experiences {.unnumbered}
 
-### Can I complete more than one [capstone](02-tracks.qmd) experience? {.unnumbered}
+### Can I complete more than one [experiential learning](02-tracks.qmd) experience? {.unnumbered}
 
 Typically, it is only possible to complete one capstone experience. An exceptions to this would be if a student completed the [Sandbox](02-tracks.qmd#sandbox) program their sophomore year before entering the strategy major.
 

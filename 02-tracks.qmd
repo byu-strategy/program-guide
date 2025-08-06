@@ -9,7 +9,7 @@ New students entering the program are initially part of Business Analyst track.
 
 During their senior year, students on the Business Analyst track will partner with a company to address real strategic issues as part of the Cougar Strategy Group, gaining hands-on experience and client management skills. Students complete this experience Fall or Winter semester of their senior year by enrolling in STRAT: 421 Strategy Implementation.
 
-As an alternative, students may opt into the Product track after taking the necessary prerequisites and discussing with the program director. 
+As an alternative, students may opt into either the Product or Research track after taking the necessary prerequisites and gaining approval from the program director. 
 
 ## Product Track {.unnumbered}
 
@@ -49,11 +49,11 @@ The Associate Product Builder (APB) Fellowship is a 12-month experiential learni
 
 Tomer Cohen, Chief Product Officer at LinkedIn
 
-- Teams of 3-5 students work on the business a minimum of 10 hours per week during the Winter Semester, full-time over the Spring and Summer, and part-time again (10-20 hours) in the Fall Semester of their senior year. 
+- Teams of 3-5 students work on the business full-time over the Spring and Summer after their junior year and part-time (10-20 hours) in the Fall and Winter Semester of their senior year. 
 - Participating students receive a stipend to cover their tuition during the Spring and Summer terms. Students with additional financial needs should speak with the program director.
 - Students receive a loan of between $1,000 and $5,000 to seed their business. Loans should be repaid by revenue generated over the following 12 months with a market interest rate. Re-paid dollars go back into the pool to fund future businesses and create a reserve. After the loan is repaid in full, students split any additional revenue after costs equally or may choose to reinvest it in the company. There is no credit impact to student's credit profile if unpaid, however, effort towards loan repayment is considered as part of course grading.
 - At the completion of the 12-month experience, students wanting to continue working on the company who have repaid their loan can mutually agree on equity positions and take the company forward. 
-- If students don't desire to take the company forward, the idea and IP goes back to the Foundry or is wound down.
+- If students don't desire to take the company forward, the idea and IP goes back to the Strategy Foundry or is wound down.
 
 **Students interested in being considered should enroll during Fall of their junior in both:**
 
@@ -64,7 +64,7 @@ Tomer Cohen, Chief Product Officer at LinkedIn
 
 [Sandbox](https://creators.byu.edu/sandbox/sandbox) students spend two semesters working in a small team to build and launch launch a software tech business from scratch—one of the best experiences those interested in tech entrepreneurship or product management can get in school.
 
-In April of each year students completing sandbox have the opportunity to pitch what they've built to real investors.
+In April of each year students completing Sandbox have the opportunity to pitch what they've built to real investors.
 
 Applications for Sandbox are completed during Winter Semester.
 
