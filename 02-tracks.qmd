@@ -3,6 +3,10 @@ title: "Tracks"
 editor: visual
 ---
 
+Strategy students may complete one of several tracks each leading to a different experiential learning experience which are described below.
+
+![](images/tracks.png){fig-align="center" width="100%"}
+
 ## Business Analyst Track {.unnumbered}
 
 New students entering the program are initially part of the Business Analyst track. 
