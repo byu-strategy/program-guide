@@ -1,0 +1,108 @@
+# BYU Strategy Program Resources
+
+::: {layout-ncol=3}
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Strategy Program Application**](https://forms.gle/bd6KWMo1VdFTgbfEA)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Strategic Management Degree**](https://catalog.byu.edu/programs/34306)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**BYU Student Portal**](https://byu2.my.site.com/s/?t=1714509212254)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Strategy Program Slack**](https://join.slack.com/t/byustrategyprogram/shared_invite/zt-3a2dpxeaq-NPzLunLwGTDCbvRPGDbUSA)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Instagram**](https://www.instagram.com/byustrategyprogram)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Remind Notifications**](https://www.remind.com/join/byustr)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Management Consulted**](https://managementconsulted.com/marriott-registration/)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Program Application Form**](https://forms.office.com/Pages/ResponsePage.aspx?id=m278xvtRqEi3eZ7lZLQEE45FG9mNzyFEuhLo8BIWgNpUQVc0SFlEWDRJRU5QRkE2UUdFU1pUTzJKWi4u)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Keenan BYU**](https://www.keenanbyu.org/)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Consulting Job Board**](https://jobs.managementconsulted.com/)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Consulting Season**](https://www.consultingseason.com/)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**Application Deadlines**](https://managementconsulted.com/consulting-application-deadlines)
+:::
+
+::: {.link-tile}
+![](images/leland.png){width=50px}
+[**APM Season**](https://www.apmseason.com/)
+:::
+
+:::
+
+```{css, echo=FALSE}
+.link-tile {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.link-tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+
+.link-tile img {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.link-tile a {
+  text-decoration: none;
+  color: #002E5D;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.link-tile a:hover {
+  color: #0066CC;
+}
+```
+
+---
+
+*Last updated: August 2025* 
