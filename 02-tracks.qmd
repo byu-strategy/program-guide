@@ -75,6 +75,10 @@ Mid-way through Fall semester, interested students will interview with both a fa
 
 ### Associate Product Builder (APB) Fellowship\* {.unnumbered}
 
+**\*The APB experience is being explored and is not guaranteed to happen. Student may do the APM experience if not, with no classes wasted.**
+
+[**Register your interest here**](https://docs.google.com/forms/d/e/1FAIpQLSeIuWTANS1VbF4ORhfvfz9rXDGjzhwe7P-yjXvpsZGwNdrrMQ/viewform?usp=sharing&ouid=102863173559950072505) to stay informed on the APB opportunity.
+
 The Associate Product Builder (APB) Fellowship is a 12-month experiential learning experience where students build and deliver to market a pre-validated product concept from the Strategy Foundry and seek to earn real revenue, starting Winter of their junior year. The experience is partly modeled after LinkedIn's first-ever [Associate Product Builder (APB) program](https://careers.linkedin.com/pathways-programs/entry-level/apb).
 
 "We are entering a new era of building. And the full-stack builder archetype is arising with it. A full-stack builder is capable of developing experiences, combining skills & expertise, across traditionally distinct domains (e.g. design, product management, technology, business strategy)."
@@ -91,10 +95,6 @@ Tomer Cohen, Chief Product Officer at LinkedIn
 
 -   STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping
 -   MSB 342: Product Management Lecture Series (1.0 credit)
-
-**\*The APB experience is being explored and is not guaranteed to happen. Student may do the APM experience if not, with no classes wasted.**
-
-[**Register your interest here**](https://docs.google.com/forms/d/e/1FAIpQLSeIuWTANS1VbF4ORhfvfz9rXDGjzhwe7P-yjXvpsZGwNdrrMQ/viewform?usp=sharing&ouid=102863173559950072505) to stay informed on the APB opportunity.
 
 ### Sandbox {.unnumbered}
 
