@@ -112,9 +112,20 @@ MBA 580: Business Strategy
 ::: {.profile-info}
 **Scott Murff**  
 Courses taught:  
-STRAT 490R: Understanding AI: From Foundations to Strategy. 
-STRAT 490R: Creating Digital Products with AI: Strategy & Prototyping
+STRAT 490R: Building Strategic AI Solutions
+STRAT 490R: Creating Digital Products with AI
 STRAT 325: Intro to Management Consulting
+:::
+:::
+
+::: {.profile-card}
+::: {.profile-image}
+![](images/ryan-allen.png)
+:::
+::: {.profile-info}
+**Ryan Allen**  
+Courses taught:  
+STRAT 401: Foundations of Strategy  
 :::
 :::
 
