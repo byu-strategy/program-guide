@@ -99,7 +99,9 @@ STRAT 421: Strategy Implementation
 **Timothy Gubler**  
 Courses taught:  
 STRAT 401: Foundations of Strategy  
-EMBA 683: Strategy
+STRAT 421: Strategy Implementation (research section)  
+EMBA 683: Strategy  
+MBA 580: Business Strategy
 :::
 :::
 
