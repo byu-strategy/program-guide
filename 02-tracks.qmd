@@ -3,9 +3,9 @@ title: "Tracks"
 editor: visual
 ---
 
-Strategy students have the option to align with 1 of 4 tracks, each leading to a different experiential learning experience and likely career outcomes. Tracks are used to guide which electives you can take and the associated experiential learning experience that is available to you. Regardless of your track, all Strategy majors take the same Junior Core. The purpose of the track options is to guide what electives you choose to take and provide insight on the types of careers a Strategy degree prepares you for. You do not need to officially report your track to the advisement office. You are also free to switch tracks as you progress through the program. However, for the Product and Research tracks, it's helpful for you to decide soon after admission if you want to keep these options open as there are classes you should take your first semester if so.
+Strategy students may choose (but are not required) to follow one of four tracks. Each track guides your elective choices, provides a distinct experiential learning opportunity, and connects to likely career outcomes. All majors, regardless of track, complete the same Junior Core. Minors complete a slightly trimmed version of the Junior Core and may also choose to align with a track contingent on the associated courses working for their schedule.
 
-All tracks are available to Strategy Minors as well, contingent on the associated courses working for their schedule.
+Tracks are meant to help you select electives and understand the career paths a Strategy degree can lead to. You do not need to officially declare a track with the advisement office, and you may switch tracks at any time. However, if you are interested in the Product or Research tracks, it is best to decide soon after admission, as these require specific classes in your first semester to keep the option open.
 
 ![](images/tracks.png){fig-align="center" width="100%"}
 
