@@ -1,49 +1,9 @@
 import type { Metadata } from "next";
-import TierCard from "@/components/consortium/TierCard";
 
 export const metadata: Metadata = {
   title: "Employer Consortium",
   description: "Partner with the BYU Strategy Program to access top undergraduate talent",
 };
-
-const tiers = [
-  {
-    name: "Partner",
-    price: "$2,500",
-    benefits: [
-      "Job board access — post unlimited listings",
-      "Company logo on program website",
-      "1 on-campus recruiting event per year",
-      "Access to student resumes (opt-in)",
-      "Quarterly program updates",
-    ],
-  },
-  {
-    name: "Premier",
-    price: "$5,000",
-    highlighted: true,
-    benefits: [
-      "Everything in Partner",
-      "Priority job listings (pinned at top)",
-      "Searchable student talent directory",
-      "2 recruiting events per year",
-      "Newsletter sponsor slot",
-      "Direct email intros to matched candidates",
-    ],
-  },
-  {
-    name: "Strategic",
-    price: "$10,000",
-    benefits: [
-      "Everything in Premier",
-      "Dedicated case competition sponsorship",
-      "Guest lecture slot in curriculum",
-      "Co-branded content and research",
-      "Unlimited recruiting events",
-      "Advisory board seat",
-    ],
-  },
-];
 
 export default function ConsortiumPage() {
   return (
@@ -58,79 +18,58 @@ export default function ConsortiumPage() {
             Employer Consortium
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-white/60">
-            Structured access to the premier undergraduate strategy talent pipeline.
-            Partner with BYU&apos;s Strategic Management Program to recruit, engage, and
-            develop top-tier analysts, consultants, and product managers.
+            Help us build the premier undergraduate strategy program.
+            In return, get direct access to our students and alumni.
           </p>
         </div>
       </section>
 
-      {/* Why Partner */}
+      {/* What You Get */}
       <section className="bg-stone py-16">
-        <div className="mx-auto max-w-4xl px-6">
+        <div className="mx-auto max-w-3xl px-6">
           <h2 className="mb-8 text-center font-heading text-2xl font-bold text-navy">
-            Why Partner With Us?
+            What Consortium Members Receive
           </h2>
-          <div className="grid gap-6 sm:grid-cols-3">
-            {[
-              {
-                stat: "100%",
-                label: "Placement Rate",
-                desc: "Every graduate lands a full-time role",
-              },
-              {
-                stat: "1,100+",
-                label: "Alumni Network",
-                desc: "Across consulting, strategy, PM, and finance",
-              },
-              {
-                stat: "Top",
-                label: "Starting Salaries",
-                desc: "Highest average in the Marriott School",
-              },
-            ].map((item) => (
-              <div key={item.label} className="bg-white p-6 text-center shadow-xs">
-                <p className="font-heading text-3xl font-bold text-navy">{item.stat}</p>
-                <p className="mt-1 font-heading text-sm font-semibold text-yellow">{item.label}</p>
-                <p className="mt-2 text-xs text-slate-gray">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Tiers */}
-      <section className="bg-white py-16">
-        <div className="mx-auto max-w-5xl px-6">
-          <h2 className="mb-2 text-center font-heading text-2xl font-bold text-navy">
-            Membership Tiers
-          </h2>
-          <p className="mb-10 text-center text-sm text-slate-gray">
-            Choose the partnership level that fits your recruiting needs.
-          </p>
-          <div className="grid gap-6 md:grid-cols-3">
-            {tiers.map((tier) => (
-              <TierCard key={tier.name} {...tier} />
-            ))}
+          <div className="bg-white p-8 shadow-xs">
+            <ul className="space-y-4">
+              {[
+                "First access to top strategy talent — post jobs, review resumes, and connect directly with students",
+                "Priority placement on the program job board",
+                "Invitations to our annual upskilling Zoom session with students and alumni",
+                "Inclusion in the program newsletter distributed to 1,100+ alumni and current students",
+                "Company logo and profile on the program website",
+                "On-campus recruiting event access",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <span className="mt-1 block h-2 w-2 shrink-0 rounded-full bg-yellow" />
+                  <span className="text-sm leading-relaxed text-slate-gray">{item}</span>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-8 border-t border-slate-gray/10 pt-6 text-center">
+              <p className="font-heading text-sm text-slate-gray">
+                Annual membership &mdash; pricing discussed on a per-company basis.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="bg-stone py-16">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-2xl px-6 text-center">
           <h2 className="font-heading text-2xl font-bold text-navy">
-            Ready to Partner?
+            Interested?
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-slate-gray">
-            Contact us to learn more about the Employer Consortium and how we can
-            tailor a partnership to your recruiting needs.
+            Reach out and we&apos;ll set up a conversation about how the consortium works
+            and whether it&apos;s a good fit for your team.
           </p>
           <a
             href="mailto:scott.murff@byu.edu?subject=Employer%20Consortium%20Inquiry"
             className="mt-6 inline-block bg-navy px-8 py-3.5 font-heading text-sm font-semibold text-white transition-colors hover:bg-royal"
           >
-            Contact Us
+            Get in Touch
           </a>
         </div>
       </section>

@@ -33,16 +33,16 @@ declare
 begin
   -- Check if this email is in the admin list
   select exists(
-    select 1 from admin_emails where lower(email) = lower(new.email)
+    select 1 from public.admin_emails where lower(email) = lower(new.email)
   ) into is_admin;
 
   -- Try to match to an existing person via emails table
   select e.person_id into matched_pid
-  from emails e
+  from public.emails e
   where lower(e.address) = lower(new.email)
   limit 1;
 
-  insert into user_profiles (id, person_id, role, display_name)
+  insert into public.user_profiles (id, person_id, role, display_name)
   values (
     new.id,
     matched_pid,
@@ -52,7 +52,7 @@ begin
 
   return new;
 end;
-$$ language plpgsql security definer;
+$$ language plpgsql security definer set search_path = public;
 
 -- Also auto-subscribe admins to newsletter
 insert into newsletter_subscribers (email, type)
