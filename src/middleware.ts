@@ -1,6 +1,16 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
+const PROTECTED_ROUTES = [
+  "/dashboard",
+  "/directory",
+  "/career-paths",
+  "/profile",
+  "/jobs",
+  "/mentorship/find",
+  "/give-back",
+];
+
 export async function middleware(request: NextRequest) {
   let supabaseResponse = NextResponse.next({ request });
 
@@ -33,7 +43,21 @@ export async function middleware(request: NextRequest) {
   );
 
   // Refresh session if expired
-  await supabase.auth.getUser();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  // Check if route is protected
+  const pathname = request.nextUrl.pathname;
+  const isProtected = PROTECTED_ROUTES.some(
+    (route) => pathname === route || pathname.startsWith(route + "/")
+  );
+
+  if (isProtected && !user) {
+    const loginUrl = new URL("/login", request.url);
+    loginUrl.searchParams.set("next", pathname);
+    return NextResponse.redirect(loginUrl);
+  }
 
   return supabaseResponse;
 }

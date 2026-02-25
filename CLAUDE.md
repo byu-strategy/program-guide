@@ -83,7 +83,11 @@ public/
 - `next.config.ts` — Next.js config wrapped with PWA plugin
 - `postcss.config.mjs` — PostCSS with Tailwind
 - `tsconfig.json` — TypeScript config with path alias `@/`
-- `.env.local` — Supabase URL and anon key (not committed)
+- `.env.local` — Supabase URL, anon key, service key, DATABASE_URL (not committed)
+
+### Data Files
+- `data/` — All raw data files (gitignored): CSVs, XLSX, PDL JSON, photos, skills backup
+- Scripts in `scripts/` reference `data/` for CSV/JSON paths
 
 ### Archived Files
 - `_archive/` — Original Quarto site files (.qmd, _quarto.yml, docs/, etc.)

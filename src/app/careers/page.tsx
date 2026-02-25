@@ -204,6 +204,19 @@ export default function CareersPage() {
 
       <ProfileGrid profiles={careerContacts} />
 
+      <div className="mt-8 mb-8 rounded-sm bg-navy/[0.04] p-6">
+        <h3 className="font-heading text-lg font-bold text-navy">
+          Interactive Outcomes Dashboard
+        </h3>
+        <p className="mt-2 text-sm text-slate-gray">
+          Explore live placement analytics &mdash;
+          role distribution charts, top employers, and cohort trends.
+        </p>
+        <div className="mt-4">
+          <CTAButton href="/outcomes">View Outcomes Dashboard</CTAButton>
+        </div>
+      </div>
+
       <h2 id="explore-placement-data">Explore Placement Data</h2>
       <p>
         The table below is an interactive pivot table allowing you to filter and

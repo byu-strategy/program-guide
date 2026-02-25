@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/ui/PageHeader";
+import CTAButton from "@/components/ui/CTAButton";
 
 export const metadata: Metadata = {
   title: "Mentorship",
@@ -104,6 +105,19 @@ export default function MentorshipPage() {
         faculty are available for one-on-one conversations and strategic
         guidance. These relationships often last well beyond your time at BYU.
       </p>
+
+      <div className="mt-8 mb-8 rounded-sm bg-navy/[0.04] p-6">
+        <h3 className="font-heading text-lg font-bold text-navy">
+          Browse Available Mentors
+        </h3>
+        <p className="mt-2 text-sm text-slate-gray">
+          Sign in to browse Strategy alumni who have volunteered to mentor current students.
+          Filter by company, role, and location to find the right match.
+        </p>
+        <div className="mt-4">
+          <CTAButton href="/mentorship/find">Find a Mentor</CTAButton>
+        </div>
+      </div>
 
       <h2>Your Network Starts Now</h2>
       <p>

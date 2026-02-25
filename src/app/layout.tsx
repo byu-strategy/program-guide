@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import Sidebar from "@/components/layout/Sidebar";
+import ContentArea from "@/components/layout/ContentArea";
 
 export const metadata: Metadata = {
   title: {
@@ -37,10 +37,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <Header />
-        <div className="mx-auto flex max-w-7xl px-4 py-8 md:px-6 lg:gap-8">
-          <Sidebar />
-          <main className="min-w-0 flex-1">{children}</main>
-        </div>
+        <ContentArea>{children}</ContentArea>
         <Footer />
       </body>
     </html>

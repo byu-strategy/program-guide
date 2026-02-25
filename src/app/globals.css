@@ -55,69 +55,118 @@
 }
 
 /* ── Base Styles ── */
-body {
-  font-family: var(--font-body);
-  background-color: var(--color-stone);
-  color: #1a1a1a;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-stone);
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
-  color: var(--color-navy);
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-navy);
+  }
 }
 
 /* ── Prose Typography ── */
-.prose {
-  max-width: 72ch;
-  line-height: 1.75;
+@layer components {
+  .prose {
+    max-width: 72ch;
+    line-height: 1.75;
+  }
+
+  .prose h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-yellow);
+  }
+
+  .prose h3 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .prose p {
+    margin-bottom: 1.25rem;
+  }
+
+  .prose ul, .prose ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  .prose li {
+    margin-bottom: 0.5rem;
+  }
+
+  .prose a {
+    color: var(--color-royal);
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 61, 165, 0.3);
+    text-underline-offset: 2px;
+    transition: text-decoration-color 0.2s var(--ease-out-expo);
+  }
+
+  .prose a:hover {
+    text-decoration-color: var(--color-royal);
+  }
+
+  .prose strong {
+    font-weight: 700;
+  }
 }
 
-.prose h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-yellow);
+/* ── Animations ── */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-.prose h3 {
-  font-size: 1.35rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
-.prose p {
-  margin-bottom: 1.25rem;
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
 }
 
-.prose ul, .prose ol {
-  margin-bottom: 1.25rem;
-  padding-left: 1.5rem;
+@keyframes slide-right {
+  from { opacity: 0; transform: translateX(-12px); }
+  to   { opacity: 1; transform: translateX(0); }
 }
 
-.prose li {
-  margin-bottom: 0.5rem;
+.animate-fade-up {
+  animation: fade-up 0.7s var(--ease-out-expo) both;
 }
 
-.prose a {
-  color: var(--color-royal);
-  text-decoration: underline;
-  text-decoration-color: rgba(0, 61, 165, 0.3);
-  text-underline-offset: 2px;
-  transition: text-decoration-color 0.2s var(--ease-out-expo);
+.animate-fade-in {
+  animation: fade-in 0.6s var(--ease-out-expo) both;
 }
 
-.prose a:hover {
-  text-decoration-color: var(--color-royal);
+.animate-scale-in {
+  animation: scale-in 0.6s var(--ease-out-expo) both;
 }
 
-.prose strong {
-  font-weight: 700;
+.animate-slide-right {
+  animation: slide-right 0.5s var(--ease-out-expo) both;
 }
+
+/* Stagger delays */
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+.delay-5 { animation-delay: 0.5s; }
+.delay-6 { animation-delay: 0.6s; }
 
 /* ── Scrollbar ── */
 ::-webkit-scrollbar {
