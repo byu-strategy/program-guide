@@ -52,6 +52,7 @@ export default function Footer() {
               <li><Link href="/jobs" className="transition-colors hover:text-white">Job Board</Link></li>
               <li><Link href="/give-back" className="transition-colors hover:text-white">Give Back</Link></li>
               <li><Link href="/consortium" className="transition-colors hover:text-white">Employer Consortium</Link></li>
+              <li><Link href="/advisory-board" className="transition-colors hover:text-white">Advisory Board</Link></li>
               <li><Link href="/directory" className="transition-colors hover:text-white">Alumni Directory</Link></li>
             </ul>
           </div>

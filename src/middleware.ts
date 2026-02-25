@@ -9,6 +9,7 @@ const PROTECTED_ROUTES = [
   "/jobs",
   "/mentorship/find",
   "/give-back",
+  "/advisory-board",
 ];
 
 export async function middleware(request: NextRequest) {
