@@ -1,0 +1,444 @@
+/* ═══════════════════════════════════════════════════════════
+   BYU Strategic Management Program Guide
+   Design System — NetTrek Brand Identity
+   ═══════════════════════════════════════════════════════════ */
+
+/* ─── Design Tokens ─────────────────────────────────────── */
+:root {
+  --navy: #002E5D;
+  --navy-dark: #001B3A;
+  --navy-mid: #0A3D6B;
+  --navy-light: #1A5276;
+  --gold: #C4A35A;
+  --gold-light: #E8D5A8;
+  --gold-dark: #A88A3D;
+  --stone: #F8F6F2;
+  --stone-dark: #EDEBE6;
+  --white: #FFFFFF;
+  --text-primary: #1A1A2E;
+  --text-secondary: #4A4A5A;
+  --text-muted: #8888A0;
+
+  --shadow-xs: 0 1px 2px rgba(0, 46, 93, 0.04);
+  --shadow-sm: 0 2px 8px rgba(0, 46, 93, 0.06);
+  --shadow-md: 0 4px 20px rgba(0, 46, 93, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 46, 93, 0.1);
+  --shadow-xl: 0 20px 48px rgba(0, 46, 93, 0.14);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+
+/* ─── Header Banner ─────────────────────────────────────── */
+.book-header-banner {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-mid) 100%);
+  padding: 28px 0;
+}
+
+.book-header-banner a {
+  text-decoration: none;
+}
+
+.header-logo-pill {
+  display: inline-block;
+  background: var(--white);
+  border-radius: 100px;
+  padding: 10px 28px;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
+}
+
+.header-logo-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.header-logo-pill img,
+.book-header-banner img {
+  max-width: 260px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* ─── Footer ────────────────────────────────────────────── */
+.book-footer {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 48px;
+  padding: 32px 40px;
+  border-top: none;
+  background: var(--navy-dark);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo-pill {
+  display: inline-block;
+  background: var(--white);
+  border-radius: 100px;
+  padding: 6px 18px;
+}
+
+.footer-logo {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
+.footer-right a {
+  color: var(--gold-light);
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.25s var(--ease-out);
+}
+
+.footer-right a:hover {
+  color: var(--gold);
+  text-decoration: underline;
+}
+
+.footer-divider {
+  color: rgba(255, 255, 255, 0.3);
+  margin: 0 4px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+}
+
+
+/* ─── Links ─────────────────────────────────────────────── */
+#quarto-content a {
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 1.5px solid transparent;
+  transition: border-color 0.25s var(--ease-out), color 0.25s var(--ease-out);
+}
+
+#quarto-content a:hover {
+  color: var(--navy-dark);
+  border-bottom-color: var(--gold);
+}
+
+
+/* ─── Profile Cards ─────────────────────────────────────── */
+.presidency-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 190px;
+  flex-shrink: 0;
+  background: var(--white);
+  border-radius: 14px;
+  padding: 20px 14px 18px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
+}
+
+.profile-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.profile-image img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 3px solid var(--stone);
+  box-shadow: var(--shadow-xs);
+}
+
+.profile-info {
+  margin-top: 0.75rem;
+  word-wrap: break-word;
+}
+
+.profile-info strong,
+.profile-info b {
+  color: var(--navy);
+  font-size: 0.95rem;
+}
+
+.profile-info p {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin: 0.2rem 0 0;
+}
+
+
+/* ─── Tables ────────────────────────────────────────────── */
+#quarto-content table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+#quarto-content table thead th {
+  background: var(--navy);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px 16px;
+  text-align: left;
+  border: none;
+}
+
+#quarto-content table tbody td {
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+#quarto-content table tbody tr:nth-child(even) {
+  background-color: var(--stone);
+}
+
+#quarto-content table tbody tr:hover {
+  background-color: var(--stone-dark);
+}
+
+#quarto-content table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+
+/* ─── Pivot Tables ──────────────────────────────────────── */
+#output .pvtTable {
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#output .pvtTable th,
+#output .pvtTable td {
+  padding: 8px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+#output .pvtTable th {
+  background: var(--navy);
+  color: var(--white);
+  font-weight: 600;
+}
+
+#output .pvtTable tr:nth-child(even) {
+  background-color: var(--stone);
+}
+
+#output .pvtUi {
+  padding: 1rem;
+  background-color: var(--stone);
+  border-radius: 14px;
+  font-family: 'Inter', sans-serif;
+}
+
+#output .pvtUi td.pvtAxisContainer {
+  width: 200px;
+  vertical-align: top;
+}
+
+#output .pvtUi select {
+  font-size: 12px;
+  padding: 4px;
+  max-width: 180px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/* ─── Course Builder ────────────────────────────────────── */
+.builder-container {
+  display: flex;
+  gap: 1rem;
+}
+
+#course-palette {
+  width: 200px;
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.75rem;
+  border-radius: 14px;
+  background: var(--stone);
+}
+
+.course-block {
+  background: var(--white);
+  margin: 0.25rem 0;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(0, 46, 93, 0.12);
+  border-radius: 8px;
+  cursor: grab;
+  user-select: none;
+  font-size: 0.88rem;
+  transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
+}
+
+.course-block:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+#pyramid-container {
+  position: relative;
+}
+
+.layer-dropzone.hover {
+  fill: var(--gold);
+  fill-opacity: 0.3 !important;
+}
+
+.course-block.dropped {
+  position: absolute;
+  cursor: default;
+  background: var(--white);
+  border: 1px solid var(--navy);
+  font-size: 12px;
+  pointer-events: none;
+  border-radius: 6px;
+}
+
+
+/* ─── Images ────────────────────────────────────────────── */
+#quarto-content .quarto-figure img,
+#quarto-content .cell-output img {
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+
+/* ─── Video Embeds ──────────────────────────────────────── */
+#quarto-content iframe[src*="youtube"] {
+  border-radius: 14px;
+  box-shadow: var(--shadow-md);
+}
+
+div[id*="video"] {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+
+/* ─── Blockquotes ───────────────────────────────────────── */
+#quarto-content blockquote {
+  border-left: 4px solid var(--gold);
+  background: var(--stone);
+  padding: 1.25rem 1.5rem;
+  border-radius: 0 14px 14px 0;
+  margin: 1.5rem 0;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+#quarto-content blockquote p {
+  margin: 0;
+}
+
+
+/* ─── Lists ─────────────────────────────────────────────── */
+#quarto-content ul li,
+#quarto-content ol li {
+  margin-bottom: 0.35rem;
+  line-height: 1.65;
+}
+
+
+/* ─── Section Dividers (alternating backgrounds) ────────── */
+.level2 {
+  padding: 1.5rem 0;
+}
+
+
+/* ─── Quarto Title Block ────────────────────────────────── */
+.quarto-title-block {
+  margin-bottom: 2rem;
+}
+
+.quarto-title .title {
+  font-family: 'EB Garamond', Georgia, serif;
+  color: var(--navy);
+  letter-spacing: -0.03em;
+}
+
+
+/* ─── Code blocks ───────────────────────────────────────── */
+pre {
+  background: var(--stone);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+}
+
+code {
+  color: var(--navy);
+  font-size: 0.88em;
+}
+
+
+/* ─── Responsive Adjustments ────────────────────────────── */
+@media (max-width: 768px) {
+  .header-logo-pill img,
+  .book-header-banner img {
+    max-width: 200px;
+  }
+
+  .book-header-banner {
+    padding: 20px 0;
+  }
+
+  .profile-card {
+    width: 160px;
+    padding: 16px 10px 14px;
+  }
+
+  .profile-image img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .presidency-grid {
+    gap: 1rem;
+  }
+}

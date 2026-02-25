@@ -1,0 +1,134 @@
+/*-- scss:defaults --*/
+
+// Typography
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$headings-font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+$headings-line-height: 1.15;
+$headings-font-weight: 400;
+
+// Colors — BYU Navy & Gold
+$primary: #002E5D;
+$secondary: #C4A35A;
+$body-color: #1A1A2E;
+$body-bg: #FFFFFF;
+$link-color: #002E5D;
+$link-hover-color: #001B3A;
+
+// Border radius
+$border-radius: 14px;
+$border-radius-sm: 8px;
+$border-radius-lg: 22px;
+
+// Navbar
+$navbar-light-color: rgba(0, 46, 93, 0.7);
+$navbar-light-hover-color: #002E5D;
+$navbar-light-active-color: #002E5D;
+
+/*-- scss:rules --*/
+
+// ─── Headings ───────────────────────────────────────────────
+h1, h2, h3, h4, h5, h6,
+.chapter-title {
+  font-family: $headings-font-family;
+  letter-spacing: -0.02em;
+  color: $primary;
+}
+
+h1, .chapter-title {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(196, 163, 90, 0.3);
+}
+
+h3 {
+  font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+}
+
+// ─── Quarto Sidebar ─────────────────────────────────────────
+.sidebar-title {
+  font-family: $headings-font-family;
+  color: $primary;
+  font-size: 1.15rem;
+}
+
+.sidebar-navigation .sidebar-item .sidebar-item-text {
+  font-family: $font-family-sans-serif;
+  font-size: 0.92rem;
+  color: #4A4A5A;
+  transition: color 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sidebar-navigation .sidebar-item.active .sidebar-item-text,
+.sidebar-navigation .sidebar-item .sidebar-item-text:hover {
+  color: $primary;
+  font-weight: 600;
+}
+
+.sidebar-navigation .sidebar-item.active {
+  border-left: 3px solid $secondary;
+}
+
+// ─── TOC (Right sidebar) ────────────────────────────────────
+#TOC a {
+  color: #4A4A5A;
+  font-size: 0.88rem;
+  transition: color 0.25s ease;
+}
+
+#TOC a:hover,
+#TOC a.active {
+  color: $primary;
+}
+
+#TOC a.active {
+  border-left: 2px solid $secondary;
+  padding-left: 8px;
+}
+
+// ─── Page Navigation (Previous/Next) ────────────────────────
+.page-navigation {
+  border-top: 2px solid rgba(196, 163, 90, 0.2);
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+
+  .nav-page-text {
+    font-family: $headings-font-family;
+    color: $primary;
+    font-size: 1.05rem;
+  }
+}
+
+// ─── Quarto Callouts ────────────────────────────────────────
+.callout {
+  border-radius: $border-radius;
+  border-left: 4px solid $primary;
+  background-color: #F8F6F2;
+  box-shadow: 0 2px 8px rgba(0, 46, 93, 0.06);
+}
+
+.callout-header {
+  font-family: $headings-font-family;
+}
+
+// ─── Content Body ───────────────────────────────────────────
+.content {
+  max-width: 900px;
+}
+
+#quarto-content p {
+  line-height: 1.7;
+  color: #1A1A2E;
+}
+
+// ─── Smooth scroll ──────────────────────────────────────────
+html {
+  scroll-behavior: smooth;
+}

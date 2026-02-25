@@ -4,117 +4,133 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Quarto book project that creates the Strategic Management Program Guide website for BYU's Marriott School of Business. The site provides comprehensive information for prospective and current students about the Strategy major, including curriculum, career tracks, placement data, and faculty information.
+This is a Next.js web application that serves as the Strategic Management Program Guide for BYU's Marriott School of Business. The site provides comprehensive information for prospective and current students about the Strategy major, including curriculum, career tracks, placement data, and faculty information.
 
 ## Technology Stack
 
-- **Quarto**: Static site generator for creating books and websites from markdown and computational documents
-- **Format**: Quarto Markdown (.qmd files) combining markdown with embedded HTML/CSS/JavaScript
-- **Output**: HTML website published to `/docs` directory (configured for GitHub Pages)
+- **Next.js 15** (App Router, TypeScript)
+- **Tailwind CSS 4** with BYU Marriott design tokens defined in `globals.css`
+- **Supabase** (`@supabase/ssr`) for auth and database (wired up, no protected routes yet)
+- **PWA** via `@ducanh2912/next-pwa` (service worker, manifest, offline support)
+- **Deployment**: Vercel
 
 ## Build and Development Commands
 
 ### Preview the site locally
 ```bash
-quarto preview
+npm run dev
 ```
-This starts a local server with live reload. Changes to .qmd files will automatically refresh the browser.
+Starts the Next.js dev server with hot reload on `localhost:3000`.
 
-### Render the entire book
+### Build for production
 ```bash
-quarto render
+npm run build
 ```
-Builds the complete site and outputs to `/docs` directory. This is what gets deployed to production.
+Builds with webpack (required for PWA plugin). Output goes to `.next/`.
 
-### Render a single chapter
+### Run production build locally
 ```bash
-quarto render 01-courses.qmd
+npm start
 ```
-Useful for quickly testing changes to a specific chapter without rebuilding the entire site.
+
+### Lint
+```bash
+npm run lint
+```
 
 ## Project Structure
 
-### Configuration
-- `_quarto.yml`: Main configuration file defining book structure, chapters, HTML theme (cosmo), and output settings
-- `_header.html`: Custom HTML injected into the header of every page
-- `_footer.html`: Custom footer HTML for every page
-- `styles.css`: Custom CSS for profile cards, pivot tables, course builders, and footer styling
+```
+src/
+├── app/
+│   ├── layout.tsx          # Root layout: Header + Sidebar + Footer
+│   ├── page.tsx            # Home / Program Overview
+│   ├── globals.css         # Tailwind + BYU Marriott design tokens
+│   ├── courses/page.tsx    # Course listings and prereqs
+│   ├── tracks/page.tsx     # Four career tracks
+│   ├── careers/page.tsx    # Career outcomes + placement pivot table
+│   ├── clubs/page.tsx      # Student organizations
+│   ├── mentorship/page.tsx # Mentorship opportunities
+│   ├── faculty/page.tsx    # Faculty profiles
+│   ├── apply/page.tsx      # Application info
+│   └── faq/page.tsx        # FAQ accordion
+├── components/
+│   ├── layout/
+│   │   ├── Header.tsx      # Navy gradient header with nav
+│   │   ├── Footer.tsx      # Navy-dark footer with links
+│   │   └── Sidebar.tsx     # Chapter navigation sidebar
+│   ├── ui/
+│   │   ├── ProfileCard.tsx # Person card with image and contact
+│   │   ├── ProfileGrid.tsx # Grid container for ProfileCards
+│   │   ├── VideoEmbed.tsx  # Lazy-load YouTube player
+│   │   ├── CTAButton.tsx   # Navy/gold call-to-action button
+│   │   ├── DataTable.tsx   # Styled data table
+│   │   └── PageHeader.tsx  # Page title component
+│   └── career/
+│       └── PivotTable.tsx  # Client component: filterable placement data
+├── lib/
+│   └── supabase/
+│       ├── client.ts       # Browser Supabase client
+│       └── server.ts       # Server Component Supabase client
+└── middleware.ts            # Supabase auth session refresh
+public/
+├── images/                 # All images, logos, photos
+├── data/                   # CSV data files (alum-first-job.csv)
+└── manifest.json           # PWA manifest
+```
 
-### Content Files (Chapters)
-Content is organized as numbered .qmd files that form the book chapters:
+### Configuration Files
+- `next.config.ts` — Next.js config wrapped with PWA plugin
+- `postcss.config.mjs` — PostCSS with Tailwind
+- `tsconfig.json` — TypeScript config with path alias `@/`
+- `.env.local` — Supabase URL and anon key (not committed)
 
-1. `index.qmd` - Program overview and introduction (what is strategy, applicant profile, curriculum overview)
-2. `01-courses.qmd` - Course listings, prerequisites, and junior/senior year curriculum
-3. `02-tracks.qmd` - Four career tracks: Management Consulting, Corporate Strategy, Product, Research
-4. `03-career.qmd` - Career outcomes, placement data, salary information
-5. `04-clubs.qmd` - Student organizations and extracurricular activities
-6. `05-mentorship.qmd` - Mentorship program details
-7. `06-faculty.qmd` - Faculty profiles and contact information
-8. `07-apply.qmd` - Application process and requirements
-9. `08-faq.qmd` - Frequently asked questions
+### Archived Files
+- `_archive/` — Original Quarto site files (.qmd, _quarto.yml, docs/, etc.)
 
-### Static Resources
-- `/images/` - All images, logos, screenshots, and graphics
-- `/data/` - CSV files (e.g., `alum-first-job.csv` for placement data)
-- `/docs/` - Generated HTML output (do not edit directly)
+## Design System (BYU Marriott Brand)
 
-## Content Editing Guidelines
+Design tokens are defined in `src/app/globals.css` using Tailwind v4 `@theme`:
 
-### Embedded HTML and JavaScript
-Many .qmd files contain embedded HTML for interactive features:
-- Lazy-loaded YouTube videos with click-to-play functionality
-- Custom profile grids for faculty and student leaders
-- Interactive pivot tables for data visualization
-- Custom styling with inline `<style>` tags and class attributes
+**Colors**: `navy`, `navy-dark`, `royal`, `slate-gray`, `stone`, `yellow`, `orange`, plus accent tones
+**Typography**: `font-heading` (Franklin Gothic), `font-body` (Georgia) — system fonts, no imports
+**Shadows**: `shadow-xs` through `shadow-xl` — navy-tinted
+**Radii**: `rounded-sm` (8px), `rounded-md` (14px), `rounded-lg` (22px), `rounded-pill` (100px)
+**Easing**: `var(--ease-out-expo)` — `cubic-bezier(0.16, 1, 0.3, 1)`
 
-### Data Integration
-- Placement data is stored in `/data/alum-first-job.csv`
-- Data visualizations may reference these CSV files directly in the .qmd files
+## Content Editing
 
-### Styling Patterns
-Key CSS classes defined in `styles.css`:
-- `.presidency-grid`, `.profile-card` - For faculty/student profile displays
-- `.pvtTable`, `.pvtUi` - Pivot table customization
-- `.builder-container`, `.course-block` - Course builder interface
-- `.book-header-banner`, `.book-footer` - Header/footer styling
+Pages are React components in `src/app/*/page.tsx`. Content is written as JSX.
 
-## Key Features and Patterns
-
-### Video Embedding
-The site uses a lazy-load pattern for YouTube videos to improve page load performance. Videos appear as thumbnail images with a play button overlay, loading the iframe only when clicked.
-
-### Responsive Design
-The site uses the Cosmo theme from Quarto with custom responsive CSS for mobile layouts (see media queries in `styles.css` for breakpoints at 768px).
-
-### External Links
-Configured to open in new windows via `link-external-newwindow: true` in `_quarto.yml`.
-
-### Social Media Integration
-Open Graph and Twitter Card metadata configured in `_quarto.yml` for social sharing.
-
-## Common Tasks
-
-### Adding a new chapter
-1. Create new `.qmd` file with appropriate numbering (e.g., `09-newchapter.qmd`)
-2. Add chapter reference to `chapters:` list in `_quarto.yml`
-3. Include YAML frontmatter with `title:` and optionally `editor: visual`
-4. Render to see changes
+### Key patterns:
+- Profile data (faculty, club officers) is defined as arrays at the top of page files
+- Use `ProfileGrid` component for people grids
+- Use `DataTable` for tabular data
+- Use `VideoEmbed` for YouTube videos (lazy-loaded)
+- Use `CTAButton` for call-to-action links
+- Wrap page content in `<article className="prose">` for typography styles
+- External links use `target="_blank" rel="noopener noreferrer"`
 
 ### Updating placement data
-1. Edit `/data/alum-first-job.csv`
-2. Ensure CSV format matches: `degree_type,grad_year_band,company.name`
-3. Re-render the site to update visualizations
-
-### Modifying site-wide styles
-1. Edit `styles.css` for custom CSS
-2. Edit `_quarto.yml` to change theme or global settings
-3. Edit `_header.html` or `_footer.html` for HTML-level changes
+1. Edit `public/data/alum-first-job.csv`
+2. CSV format: `degree_type,grad_year_band,company.name`
+3. The PivotTable component reads this at runtime
 
 ### Adding images
-1. Place images in `/images/` directory
-2. Reference in .qmd files using relative paths: `images/filename.png`
-3. Use Quarto image syntax with options: `![](images/file.png){fig-align="center" width="85%"}`
+1. Place images in `public/images/`
+2. Reference with `src="/images/filename.png"` in Next.js `Image` components
+
+### Adding a new page
+1. Create `src/app/newpage/page.tsx`
+2. Add route to nav arrays in `Header.tsx` and `Sidebar.tsx`
+3. Add link in `Footer.tsx`
 
 ## Publishing
 
-The site is built to the `/docs` directory, which is typically configured as the GitHub Pages source. After rendering, commit and push changes to deploy updates to the live site.
+Deployed via Vercel. Push to `main` triggers automatic deployment.
+Environment variables (Supabase URL + anon key) are set in Vercel dashboard.
+
+## Other
+
+- `nettrek/` — Standalone page, kept as-is at root
+- PWA generates `public/sw.js` and `public/workbox-*.js` at build time (gitignored)

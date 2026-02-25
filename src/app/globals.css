@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/* ── BYU Marriott Design Tokens ── */
+@theme inline {
+  /* Primary */
+  --color-navy: #002E5D;
+  --color-navy-dark: #001A3A;
+  --color-royal: #003DA5;
+  --color-white: #FFFFFF;
+
+  /* Neutral */
+  --color-slate-gray: #7C878E;
+  --color-stone: #F8F6F2;
+
+  /* Accent Light */
+  --color-yellow: #F2CD00;
+  --color-orange: #DC8633;
+  --color-purple-light: #9B7793;
+  --color-green-light: #6FA287;
+  --color-slate-blue: #5B7F95;
+
+  /* Accent Medium */
+  --color-brown: #9E652E;
+  --color-red: #D14124;
+  --color-purple: #72246C;
+  --color-green: #44693D;
+  --color-blue: #006FA8;
+
+  /* Accent Dark */
+  --color-brown-dark: #493C38;
+  --color-maroon: #51140C;
+  --color-purple-dark: #3D023C;
+  --color-green-dark: #023508;
+  --color-blue-dark: #011C2B;
+
+  /* Typography */
+  --font-heading: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+  --font-body: Georgia, "Times New Roman", Times, serif;
+
+  /* Shadows (navy-tinted) */
+  --shadow-xs: 0 1px 2px rgba(0,46,93,0.04);
+  --shadow-sm: 0 2px 8px rgba(0,46,93,0.06);
+  --shadow-md: 0 4px 20px rgba(0,46,93,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,46,93,0.1);
+  --shadow-xl: 0 20px 48px rgba(0,46,93,0.14);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 100px;
+
+  /* Easing */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ── Base Styles ── */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-stone);
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-navy);
+}
+
+/* ── Prose Typography ── */
+.prose {
+  max-width: 72ch;
+  line-height: 1.75;
+}
+
+.prose h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-yellow);
+}
+
+.prose h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose p {
+  margin-bottom: 1.25rem;
+}
+
+.prose ul, .prose ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+.prose a {
+  color: var(--color-royal);
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 61, 165, 0.3);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.2s var(--ease-out-expo);
+}
+
+.prose a:hover {
+  text-decoration-color: var(--color-royal);
+}
+
+.prose strong {
+  font-weight: 700;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-stone);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-slate-gray);
+  border-radius: var(--radius-pill);
+}
