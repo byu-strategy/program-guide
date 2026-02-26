@@ -13,26 +13,29 @@ export async function POST(request: NextRequest) {
 
   const body = await request.json();
 
-  if (!body.mentor_person_id) {
+  if (!body.person_id || !body.click_type) {
     return NextResponse.json(
-      { error: "mentor_person_id is required" },
+      { error: "person_id and click_type are required" },
       { status: 400 }
     );
   }
 
-  const { data, error } = await supabase
-    .from("mentor_requests")
-    .insert({
-      student_id: user.id,
-      mentor_person_id: body.mentor_person_id,
-      message: body.message || null,
-    })
-    .select()
-    .single();
+  if (!["profile_view", "linkedin_click"].includes(body.click_type)) {
+    return NextResponse.json(
+      { error: "Invalid click_type" },
+      { status: 400 }
+    );
+  }
+
+  const { error } = await supabase.from("directory_clicks").insert({
+    clicked_by: user.id,
+    person_id: body.person_id,
+    click_type: body.click_type,
+  });
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
-  return NextResponse.json(data);
+  return NextResponse.json({ ok: true });
 }

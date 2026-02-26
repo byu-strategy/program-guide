@@ -4,9 +4,11 @@ import { useEffect, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import Link from "next/link";
 import type { User } from "@supabase/supabase-js";
+import type { UserRole } from "@/types/database";
 
 export default function AuthButton() {
   const [user, setUser] = useState<User | null>(null);
+  const [role, setRole] = useState<UserRole | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -15,12 +17,23 @@ export default function AuthButton() {
     supabase.auth.getUser().then(({ data: { user } }) => {
       setUser(user);
       setLoading(false);
+      if (user) {
+        supabase
+          .from("user_profiles")
+          .select("role")
+          .eq("id", user.id)
+          .single()
+          .then(({ data }) => {
+            if (data) setRole(data.role as UserRole);
+          });
+      }
     });
 
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
       setUser(session?.user ?? null);
+      if (!session?.user) setRole(null);
     });
 
     return () => subscription.unsubscribe();
@@ -41,10 +54,17 @@ export default function AuthButton() {
     );
   }
 
-  return <UserMenu user={user} />;
+  return <UserMenu user={user} role={role} />;
 }
 
-function UserMenu({ user }: { user: User }) {
+const roleBadgeColors: Record<string, string> = {
+  faculty: "bg-yellow/20 text-brown",
+  student: "bg-royal/10 text-royal",
+  alumni: "bg-navy/10 text-navy",
+  employer: "bg-orange/10 text-orange",
+};
+
+function UserMenu({ user, role }: { user: User; role: UserRole | null }) {
   const [open, setOpen] = useState(false);
 
   async function handleSignOut() {
@@ -68,6 +88,11 @@ function UserMenu({ user }: { user: User }) {
           {displayName.charAt(0).toUpperCase()}
         </span>
         <span className="hidden text-slate-gray sm:inline">{displayName}</span>
+        {role && (
+          <span className={`hidden rounded-full px-1.5 py-0.5 font-heading text-[9px] font-semibold uppercase tracking-wider sm:inline ${roleBadgeColors[role] || "bg-stone text-slate-gray"}`}>
+            {role}
+          </span>
+        )}
         <svg
           className={`h-3 w-3 text-slate-gray transition-transform ${open ? "rotate-180" : ""}`}
           fill="none"
@@ -88,7 +113,7 @@ function UserMenu({ user }: { user: User }) {
             Dashboard
           </Link>
           <Link
-            href="/profile/edit"
+            href={role === "student" ? "/profile/student-edit" : "/profile/edit"}
             onClick={() => setOpen(false)}
             className="block px-4 py-2.5 font-heading text-sm text-slate-gray transition-colors hover:bg-stone hover:text-navy"
           >

@@ -11,7 +11,6 @@ interface ProfileEditFormProps {
 export default function ProfileEditForm({ person }: ProfileEditFormProps) {
   const [form, setForm] = useState({
     bio: person.bio || "",
-    mentor_available: person.mentor_available || false,
     contact_preference: person.contact_preference || "linkedin",
     current_job_title: person.current_job_title || "",
     current_company: person.current_company || "",
@@ -155,21 +154,6 @@ export default function ProfileEditForm({ person }: ProfileEditFormProps) {
           className="w-full border border-slate-gray/20 bg-stone px-4 py-2.5 text-sm focus:border-royal focus:outline-none"
           placeholder="Tell fellow alumni about yourself..."
         />
-      </div>
-
-      {/* Mentorship */}
-      <div className="flex items-center gap-3">
-        <input
-          id="mentor_available"
-          name="mentor_available"
-          type="checkbox"
-          checked={form.mentor_available}
-          onChange={handleChange}
-          className="h-4 w-4 accent-navy"
-        />
-        <label htmlFor="mentor_available" className="font-heading text-sm text-navy">
-          I&apos;m available to mentor current students
-        </label>
       </div>
 
       {/* Contact Preference */}

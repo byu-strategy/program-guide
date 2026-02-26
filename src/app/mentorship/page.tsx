@@ -46,10 +46,18 @@ export default function MentorshipPage() {
         opportunities, alumni networks, and faculty support.
       </p>
 
-      <h3>Alumni Mentorship via BYU Connect</h3>
+      <h3>Alumni Mentorship</h3>
       <p>
-        Thousands of BYU alumni and many Strategy alumni are available for
-        mentoring through{" "}
+        All Strategy alumni are mentors. Browse the{" "}
+        <a href="/directory/alumni">Alumni Directory</a> to find alumni by
+        company, role, or location, then reach out via LinkedIn to start a
+        conversation. Alumni are generally very responsive and happy to help with
+        career conversations, mock interviews, resume feedback, and more.
+      </p>
+
+      <h3>Alumni Mentors via BYU Connect</h3>
+      <p>
+        Many Strategy alumni are also available through{" "}
         <a
           href="https://connect.byu.edu"
           target="_blank"
@@ -58,16 +66,7 @@ export default function MentorshipPage() {
           BYU Connect
         </a>
         . This platform allows you to search for mentors by industry, company,
-        or location. Alumni are generally very responsive and happy to help with
-        career conversations, mock interviews, resume feedback, and more.
-      </p>
-
-      <h3>Alumni Mentors Outside BYU Connect</h3>
-      <p>
-        Some of our most involved alumni aren&apos;t active on BYU Connect but
-        remain closely connected to the program through faculty and club
-        relationships. These professionals are willing to mentor students when
-        matched through faculty or student introductions.
+        or location.
       </p>
 
       <h3>Business Career Center (BCC)</h3>
@@ -108,14 +107,14 @@ export default function MentorshipPage() {
 
       <div className="mt-8 mb-8 rounded-sm bg-navy/[0.04] p-6">
         <h3 className="font-heading text-lg font-bold text-navy">
-          Browse Available Mentors
+          Connect With Alumni
         </h3>
         <p className="mt-2 text-sm text-slate-gray">
-          Sign in to browse Strategy alumni who have volunteered to mentor current students.
-          Filter by company, role, and location to find the right match.
+          Sign in to browse the Alumni Directory. Find alumni by company, role, and
+          location, then connect via LinkedIn.
         </p>
         <div className="mt-4">
-          <CTAButton href="/mentorship/find">Find a Mentor</CTAButton>
+          <CTAButton href="/directory/alumni">Browse Alumni Directory</CTAButton>
         </div>
       </div>
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { createClient } from "@/lib/supabase/server";
+import { getUserAccess } from "@/lib/supabase/helpers";
 import JobCard from "@/components/jobs/JobCard";
 import JobPostForm from "@/components/jobs/JobPostForm";
 import type { Job } from "@/types/database";
@@ -9,7 +10,10 @@ export const metadata: Metadata = {
 };
 
 export default async function JobsPage() {
+  const { role } = await getUserAccess();
   const supabase = await createClient();
+
+  const canPost = role === "alumni" || role === "employer" || role === "faculty";
 
   // Fetch active jobs — consortium priority first, then by date
   const { data: jobs } = await supabase
@@ -34,11 +38,11 @@ export default async function JobsPage() {
 
       <div className="grid gap-8 lg:grid-cols-3">
         {/* Job Listings */}
-        <div className="lg:col-span-2">
+        <div className={canPost ? "lg:col-span-2" : "lg:col-span-3"}>
           {allJobs.length === 0 ? (
             <div className="bg-white p-8 text-center shadow-xs">
               <p className="font-heading text-lg text-slate-gray">
-                No jobs posted yet. Be the first!
+                No jobs posted yet.{canPost ? " Be the first!" : ""}
               </p>
             </div>
           ) : (
@@ -50,10 +54,12 @@ export default async function JobsPage() {
           )}
         </div>
 
-        {/* Post Form */}
-        <div>
-          <JobPostForm />
-        </div>
+        {/* Post Form — only for alumni, employers, faculty */}
+        {canPost && (
+          <div>
+            <JobPostForm />
+          </div>
+        )}
       </div>
     </div>
   );

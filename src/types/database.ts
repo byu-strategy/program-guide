@@ -26,6 +26,11 @@ export interface Person {
   mentor_available: boolean;
   contact_preference: 'email' | 'linkedin' | 'none' | null;
   profile_photo_url: string | null;
+  track: string | null;
+  target_roles: string | null;
+  gpa: number | null;
+  resume_url: string | null;
+  internship_experience: string | null;
   created_at: string;
   updated_at: string;
 }
@@ -75,10 +80,12 @@ export interface Education {
   last_seen_at: string;
 }
 
+export type UserRole = 'student' | 'alumni' | 'employer' | 'faculty' | 'friend';
+
 export interface UserProfile {
   id: string; // uuid
   person_id: number | null;
-  role: 'student' | 'alumni' | 'employer' | 'admin';
+  role: UserRole;
   display_name: string | null;
   created_at: string;
 }
@@ -113,7 +120,7 @@ export interface ConsortiumMember {
   id: number;
   user_id: string; // uuid
   company_name: string;
-  tier: 'partner' | 'premier' | 'strategic';
+  tier: 'member';
   contact_name: string | null;
   contact_email: string | null;
   starts_at: string;
@@ -126,9 +133,17 @@ export interface NewsletterSubscriber {
   id: number;
   email: string;
   person_id: number | null;
-  type: 'alumni' | 'student' | 'friend';
+  type: 'alumni' | 'student' | 'employer' | 'faculty' | 'friend';
   subscribed_at: string;
   unsubscribed_at: string | null;
+}
+
+export interface DirectoryClick {
+  id: number;
+  clicked_by: string; // uuid
+  person_id: number;
+  click_type: 'profile_view' | 'linkedin_click';
+  created_at: string;
 }
 
 // View types

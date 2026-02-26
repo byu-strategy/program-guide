@@ -1,28 +1,24 @@
 import type { Metadata } from "next";
 import { createClient } from "@/lib/supabase/server";
+import { getUserAccess } from "@/lib/supabase/helpers";
 import Link from "next/link";
-import type { Person, Job, MentorRequest } from "@/types/database";
+import type { Person, Job, UserRole } from "@/types/database";
+import RoleToggleWidget from "@/components/admin/RoleToggleWidget";
+import AdminStats from "@/components/admin/AdminStats";
 
 export const metadata: Metadata = {
   title: "Dashboard",
 };
 
 export default async function DashboardPage() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const { user, profile, role } = await getUserAccess();
+  if (!user || !profile) return null;
 
-  // Fetch user profile
-  const { data: profile } = await supabase
-    .from("user_profiles")
-    .select("*")
-    .eq("id", user!.id)
-    .single();
+  const supabase = await createClient();
 
   // Fetch linked person if exists
   let person: Person | null = null;
-  if (profile?.person_id) {
+  if (profile.person_id) {
     const { data } = await supabase
       .from("people")
       .select("*")
@@ -54,18 +50,51 @@ export default async function DashboardPage() {
     .order("created_at", { ascending: false })
     .limit(5);
 
-  // Fetch mentor requests (if person is a mentor)
-  let mentorRequests: MentorRequest[] = [];
-  if (person?.mentor_available && person.id) {
-    const { data } = await supabase
-      .from("mentor_requests")
-      .select("*")
-      .eq("mentor_person_id", person.id)
-      .eq("status", "pending");
-    mentorRequests = (data || []) as MentorRequest[];
+  // Faculty admin stats
+  let adminStats = null;
+  if (role === "faculty") {
+    const { data: profiles } = await supabase
+      .from("user_profiles")
+      .select("role, created_at");
+
+    const byRole: Record<string, number> = {};
+    let recentSignups = 0;
+    const thirtyDaysAgo = new Date();
+    thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+
+    (profiles || []).forEach((p: { role: string; created_at: string }) => {
+      byRole[p.role] = (byRole[p.role] || 0) + 1;
+      if (new Date(p.created_at) > thirtyDaysAgo) recentSignups++;
+    });
+
+    const { count: profileViews } = await supabase
+      .from("directory_clicks")
+      .select("*", { count: "exact", head: true })
+      .eq("click_type", "profile_view");
+
+    const { count: linkedinClicks } = await supabase
+      .from("directory_clicks")
+      .select("*", { count: "exact", head: true })
+      .eq("click_type", "linkedin_click");
+
+    adminStats = {
+      totalUsers: (profiles || []).length,
+      byRole,
+      recentSignups,
+      totalClicks: (profileViews || 0) + (linkedinClicks || 0),
+      profileViews: profileViews || 0,
+      linkedinClicks: linkedinClicks || 0,
+    };
   }
 
-  const displayName = profile?.display_name || user!.email?.split("@")[0] || "User";
+  const displayName = profile.display_name || user.email?.split("@")[0] || "User";
+
+  const roleBadgeColors: Record<string, string> = {
+    faculty: "bg-yellow/20 text-brown",
+    student: "bg-royal/10 text-royal",
+    alumni: "bg-navy/10 text-navy",
+    employer: "bg-orange/10 text-orange",
+  };
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-10">
@@ -74,14 +103,22 @@ export default async function DashboardPage() {
           Welcome, {displayName}
         </h1>
         <p className="mt-1 text-slate-gray">
-          {profile?.role === "admin" && (
-            <span className="mr-2 rounded-full bg-yellow/20 px-2 py-0.5 font-heading text-[10px] font-semibold uppercase tracking-wider text-brown">
-              Admin
+          {role && (
+            <span className={`mr-2 rounded-full px-2 py-0.5 font-heading text-[10px] font-semibold uppercase tracking-wider ${roleBadgeColors[role] || "bg-stone text-slate-gray"}`}>
+              {role}
             </span>
           )}
           Your Strategy program dashboard
         </p>
       </div>
+
+      {/* Faculty Admin Section */}
+      {role === "faculty" && (
+        <div className="mb-8 grid gap-6 lg:grid-cols-2">
+          <RoleToggleWidget currentRole={role as UserRole} />
+          {adminStats && <AdminStats stats={adminStats} />}
+        </div>
+      )}
 
       <div className="grid gap-6 lg:grid-cols-3">
         {/* Profile Completeness */}
@@ -96,14 +133,14 @@ export default async function DashboardPage() {
           <p className="mb-4 text-xs text-slate-gray">{completeness}% complete</p>
           {person ? (
             <Link
-              href="/profile/edit"
+              href={role === "student" ? "/profile/student-edit" : "/profile/edit"}
               className="inline-block bg-navy px-4 py-2 font-heading text-xs font-semibold text-white transition-colors hover:bg-royal"
             >
               Edit Profile
             </Link>
           ) : (
             <p className="text-xs text-slate-gray">
-              No alumni record linked. Contact the program to get linked.
+              No record linked. Contact the program to get linked.
             </p>
           )}
         </div>
@@ -113,8 +150,13 @@ export default async function DashboardPage() {
           <h2 className="mb-3 font-heading text-sm font-bold text-navy">Quick Links</h2>
           <ul className="space-y-2">
             <li>
-              <Link href="/directory" className="text-sm text-royal transition-colors hover:text-navy">
+              <Link href="/directory/alumni" className="text-sm text-royal transition-colors hover:text-navy">
                 Browse Alumni Directory
+              </Link>
+            </li>
+            <li>
+              <Link href="/directory/students" className="text-sm text-royal transition-colors hover:text-navy">
+                Browse Student Directory
               </Link>
             </li>
             <li>
@@ -128,11 +170,6 @@ export default async function DashboardPage() {
               </Link>
             </li>
             <li>
-              <Link href="/mentorship/find" className="text-sm text-royal transition-colors hover:text-navy">
-                Find a Mentor
-              </Link>
-            </li>
-            <li>
               <Link href="/give-back" className="text-sm text-royal transition-colors hover:text-navy">
                 Give Back
               </Link>
@@ -140,27 +177,39 @@ export default async function DashboardPage() {
           </ul>
         </div>
 
-        {/* Mentor Requests */}
-        {person?.mentor_available && (
-          <div className="bg-white p-6 shadow-xs">
-            <h2 className="mb-3 font-heading text-sm font-bold text-navy">
-              Mentor Requests
-              {mentorRequests.length > 0 && (
-                <span className="ml-2 rounded-full bg-yellow px-2 py-0.5 font-heading text-[10px] font-bold text-navy">
-                  {mentorRequests.length}
-                </span>
-              )}
-            </h2>
-            {mentorRequests.length === 0 ? (
-              <p className="text-xs text-slate-gray">No pending requests</p>
-            ) : (
-              <p className="text-xs text-slate-gray">
-                You have {mentorRequests.length} pending mentorship{" "}
-                {mentorRequests.length === 1 ? "request" : "requests"}.
-              </p>
-            )}
-          </div>
-        )}
+        {/* Role-specific info */}
+        <div className="bg-white p-6 shadow-xs">
+          <h2 className="mb-3 font-heading text-sm font-bold text-navy">
+            {role === "student" ? "Student Resources" : "Stay Connected"}
+          </h2>
+          {role === "student" ? (
+            <ul className="space-y-2">
+              <li>
+                <Link href="/profile/student-edit" className="text-sm text-royal transition-colors hover:text-navy">
+                  Update Student Profile
+                </Link>
+              </li>
+              <li>
+                <Link href="/mentorship" className="text-sm text-royal transition-colors hover:text-navy">
+                  Mentorship Resources
+                </Link>
+              </li>
+            </ul>
+          ) : (
+            <ul className="space-y-2">
+              <li>
+                <Link href="/profile/edit" className="text-sm text-royal transition-colors hover:text-navy">
+                  Update Profile
+                </Link>
+              </li>
+              <li>
+                <Link href="/give-back" className="text-sm text-royal transition-colors hover:text-navy">
+                  Ways to Give Back
+                </Link>
+              </li>
+            </ul>
+          )}
+        </div>
       </div>
 
       {/* Recent Jobs */}

@@ -23,9 +23,9 @@ const engagementOptions = [
   {
     title: "Mentor",
     description:
-      "Toggle your mentor availability to connect with current students seeking guidance on career paths, recruiting preparation, and professional development.",
-    cta: "Update Availability",
-    href: "/profile/edit",
+      "All Strategy alumni are mentors. Students reach out via LinkedIn through the Alumni Directory. Update your profile so students can find and connect with you.",
+    cta: "View Directory",
+    href: "/directory/alumni",
     external: false,
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>

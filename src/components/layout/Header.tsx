@@ -33,7 +33,7 @@ const navItems: NavItem[] = [
   { href: "/faq", label: "FAQ" },
   { href: "/consortium", label: "Consortium" },
   { href: "/advisory-board", label: "Advisory Board", authOnly: true },
-  { href: "/directory", label: "Directory", authOnly: true },
+  { href: "/directory/alumni", label: "Directory", authOnly: true },
   { href: "/career-paths", label: "Career Paths", authOnly: true },
   { href: "/jobs", label: "Jobs", authOnly: true },
 ];
@@ -50,7 +50,7 @@ const mobileLinks: NavLink[] = [
   { href: "/faq", label: "FAQ" },
   { href: "/consortium", label: "Consortium" },
   { href: "/advisory-board", label: "Advisory Board", authOnly: true },
-  { href: "/directory", label: "Directory", authOnly: true },
+  { href: "/directory/alumni", label: "Directory", authOnly: true },
   { href: "/career-paths", label: "Career Paths", authOnly: true },
   { href: "/jobs", label: "Jobs", authOnly: true },
   { href: "/dashboard", label: "Dashboard", authOnly: true },

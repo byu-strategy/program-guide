@@ -7,7 +7,6 @@ const PROTECTED_ROUTES = [
   "/career-paths",
   "/profile",
   "/jobs",
-  "/mentorship/find",
   "/give-back",
   "/advisory-board",
 ];

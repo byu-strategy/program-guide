@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { createClient } from "@/lib/supabase/server";
+import { getUserAccess } from "@/lib/supabase/helpers";
 import CareerFlowDiagram from "@/components/career-paths/CareerFlowDiagram";
 import RoleBucketDetail from "@/components/career-paths/RoleBucketDetail";
 import type { FirstPostGradJob } from "@/types/database";
@@ -10,6 +11,20 @@ export const metadata: Metadata = {
 };
 
 export default async function CareerPathsPage() {
+  const { role, isConsortium } = await getUserAccess();
+
+  // Employers can only see career paths if they're consortium members
+  if (role === "employer" && !isConsortium) {
+    return (
+      <div className="mx-auto max-w-6xl px-6 py-10">
+        <h1 className="font-heading text-3xl font-bold text-navy">Career Paths</h1>
+        <p className="mt-2 text-slate-gray">
+          Career path data is available to consortium members. Contact the program for access.
+        </p>
+      </div>
+    );
+  }
+
   const supabase = await createClient();
 
   // Fetch first 3 jobs for transition analysis
