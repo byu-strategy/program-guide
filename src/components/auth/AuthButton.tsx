@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import Link from "next/link";
 import type { User } from "@supabase/supabase-js";
@@ -66,6 +66,17 @@ const roleBadgeColors: Record<string, string> = {
 
 function UserMenu({ user, role }: { user: User; role: UserRole | null }) {
   const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
 
   async function handleSignOut() {
     const supabase = createClient();
@@ -79,7 +90,7 @@ function UserMenu({ user, role }: { user: User; role: UserRole | null }) {
     "User";
 
   return (
-    <div className="relative">
+    <div ref={ref} className="relative">
       <button
         onClick={() => setOpen(!open)}
         className="flex items-center gap-2 rounded-sm px-3 py-2 font-heading text-sm transition-colors hover:text-navy"
@@ -94,7 +105,7 @@ function UserMenu({ user, role }: { user: User; role: UserRole | null }) {
           </span>
         )}
         <svg
-          className={`h-3 w-3 text-slate-gray transition-transform ${open ? "rotate-180" : ""}`}
+          className={`h-3 w-3 text-slate-gray transition-transform duration-200 ${open ? "rotate-180" : ""}`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -104,32 +115,25 @@ function UserMenu({ user, role }: { user: User; role: UserRole | null }) {
         </svg>
       </button>
       {open && (
-        <div className="absolute right-0 top-full z-50 mt-1 min-w-[180px] overflow-hidden bg-white shadow-md">
+        <div className="animate-dropdown-enter absolute right-0 top-full z-50 mt-2 min-w-[200px] overflow-hidden rounded-md bg-white shadow-lg">
           <Link
             href="/dashboard"
             onClick={() => setOpen(false)}
-            className="block px-4 py-2.5 font-heading text-sm text-slate-gray transition-colors hover:bg-stone hover:text-navy"
+            className="block px-4 py-2.5 font-heading text-sm text-slate-gray transition-colors hover:bg-stone/70 hover:text-navy"
           >
             Dashboard
           </Link>
           <Link
             href={role === "student" ? "/profile/student-edit" : "/profile/edit"}
             onClick={() => setOpen(false)}
-            className="block px-4 py-2.5 font-heading text-sm text-slate-gray transition-colors hover:bg-stone hover:text-navy"
+            className="block px-4 py-2.5 font-heading text-sm text-slate-gray transition-colors hover:bg-stone/70 hover:text-navy"
           >
             Edit Profile
-          </Link>
-          <Link
-            href="/give-back"
-            onClick={() => setOpen(false)}
-            className="block px-4 py-2.5 font-heading text-sm text-slate-gray transition-colors hover:bg-stone hover:text-navy"
-          >
-            Give Back
           </Link>
           <hr className="border-slate-gray/10" />
           <button
             onClick={handleSignOut}
-            className="block w-full px-4 py-2.5 text-left font-heading text-sm text-slate-gray transition-colors hover:bg-stone hover:text-red"
+            className="block w-full px-4 py-2.5 text-left font-heading text-sm text-slate-gray transition-colors hover:bg-stone/70 hover:text-red"
           >
             Sign Out
           </button>
